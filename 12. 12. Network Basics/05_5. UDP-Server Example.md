@@ -1,0 +1,119 @@
+# 5. UDP-Server Example
+
+# UDP-Server Example
+
+UDP-Server ExampleDetailed explanation of the routine
+
+ 
+
+## Detailed explanation of the routine
+
+In this section, we will introduce how to use K230 as a UDP server
+
+The complete code is located in [Source Code/11.Network/04.udp/udp_server.py]
+
+We open the example code in this section and modify the WIFI connection information part in the code to your home WIFI or mobile hotspot
+
+```python
+WIFI_SSID="WIFI SSID"
+WIFI_PASSWD="WIFI Password
+
+```
+
+We click the run button in the lower left corner, and the console will output information about starting the server
+
+```python
+IP Address: 192.168.2.116
+IP Address: 192.168.2.116
+Address infos: [(2, 1, 0, '', ('192.168.2.116', 8081))]
+udp server ('192.168.2.116', 8081) port:8081
+
+```
+
+Next, we use IPConfig to check the local network IP. The operation methods of each system version are different. You can search for how to open the command prompt on your computer version. Here we take Windows 10 as an example
+
+After opening it, if you are connected via a network cable, find [Ethernet Adapter Ethernet] and find the [IPv4 Address] in this column. This is the local host address we need to fill in.
+
+![image-20250221095530292](1.png)
+
+Similarly, if you are connected to WIFI, find the [IPv4 Address] in the [Wireless LAN Adapter WLAN] section.
+
+Then we open the network debugging assistant NetAssist.exe provided in the attachment and fill in the IP address and port information
+
+![image-20250221100434390](2.png)
+
+Since port 8081 is now a commonly used port, it may be occupied. If port 8081 is occupied, you can choose to change the port number to any number between 0 and 65535. Be careful to avoid some commonly used network ports to avoid occupation. Or search by yourself: How to force the process occupying port 8081 when it is occupied
+
+ 
+
+In the network debugging assistant, we send Hello Yahboom
+
+Note: Because the network environment was switched when the screenshot was taken, the local host address and remote host address are inconsistent with the above picture. Please refer to the IP address obtained by the IP address query method described in the above picture.
+
+![image-20250407164541930](3.png)
+
+The receiving end of K230 will receive the message
+
+```python
+IP Address: 192.168.2.116
+IP Address: 192.168.2.116
+Address infos: [(2, 1, 0, '', ('192.168.2.116', 8081))]
+udp server ('192.168.2.116', 8081) port:8081
+​
+recv 0 b'hello yahb' ('137.3.3.0', 0)
+
+```
+
+Because we set it in the code
+
+```python
+data, addr = s.recvfrom(10)
+
+```
+
+So only 10 characters will be received at a time. Characters outside the range will be discarded.
+
+We sent it ten times in a row
+
+You can see that after ten times, the K230 segment automatically ends the process.
+
+```python
+IP Address: 192.168.2.116
+IP Address: 192.168.2.116
+Address infos: [(2, 1, 0, '', ('192.168.2.116', 8081))]
+udp server ('192.168.2.116', 8081) port:8081
+​
+recv 0 b'hello yahb' ('137.3.3.0', 0)
+recv 1 b'hello yahb' ('137.3.3.0', 0)
+recv 2 b'hello yahb' ('137.3.3.0', 0)
+recv 3 b'hello yahb' ('137.3.3.0', 0)
+recv 4 b'hello yahb' ('137.3.3.0', 0)
+recv 5 b'hello yahb' ('137.3.3.0', 0)
+recv 6 b'hello yahb' ('137.3.3.0', 0)
+recv 7 b'hello yahb' ('137.3.3.0', 0)
+recv 8 b'hello yahb' ('137.3.3.0', 0)
+recv 9 b'hello yahb' ('137.3.3.0', 0)
+recv 10 b'hello yahb' ('137.3.3.0', 0)
+udp server exit!!
+MPY: soft reboot
+CanMV v1.3.1(based on Micropython e00a144) on 2025-05-08; k230_canmv_yahboom with K230
+
+```
+
+This number is determined by the counter variable in the code and the judgment condition in the loop.
+
+```python
+    counter=0
+    while True :
+        os.exitpoint()
+        data, addr = s.recvfrom(10)
+        if data == b"":
+            continue
+        print("recv %d" % counter,data,addr)
+        #回复内容 Reply content
+        s.sendto(b"%s have recv count=%d " % (data,counter), IP_ADDR)
+        counter = counter+1
+        if counter > 10 :
+            break
+
+```

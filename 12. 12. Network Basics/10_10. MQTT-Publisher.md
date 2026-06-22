@@ -1,0 +1,191 @@
+# 10. MQTT-Publisher
+
+# MQTT-Publisher Example
+
+MQTT-Publisher ExampleRoutine explanationIntroductionStep 1: Install the debugging software MQTTXStep 2: MQTT-Publisher StartupCode Analysis1. **Module import part**2. **Configuration parameters**3. **`connect_wifi`Functions**4. **Main program part**flow chart
+
+ 
+
+## Routine explanation
+
+### Introduction
+
+In this section, we use K230 to implement the MQTT publisher function.
+
+### Step 1: Install the debugging software MQTTX
+
+Before running the example, we need to install MQTTX as debugging software. You can find the installation package of this software in our supporting materials (Windows version. Other system versions can be found in this link [MQTTX download](https://mqttx.app/downloads) )
+
+![image-20250221143100208](1.png)
+
+The installation steps are relatively simple, just keep clicking “Next”.
+
+After the installation is complete, we open the program and click "New Connection"
+
+![image-20250221143322191](2.png)
+
+Then fill in the information as shown below
+
+![image-20250221143621050](3.png)
+
+The Host and Port here refer to the address information of the MQTT server. In our example, we use the free public MQTT server provided by EMQX. The server information can be found in this link:
+
+[Free MQTT Broker: Public & Multi-Region | Connect Now | EMQ](https://www.emqx.com/en/mqtt/public-mqtt5-broker)
+
+It should be noted that third-party services cannot guarantee long-term effectiveness. If you find that the link is invalid, you can promptly feedback to our technical support and we will find a public MQTT server to replace it and modify the tutorial.
+
+Of course, in actual scenarios (real business scenarios), please deploy the MQTT server yourself to ensure data security and service stability.
+
+After filling in the form, click Connection in the upper right corner and wait for the Connected button to pop up, indicating that the connection is successful.
+
+![image-20250221144653046](7.png)
+
+If you need to adjust the language, you can do it here:
+
+![image-20250221113921214](language.png)
+
+ 
+
+### Step 2: MQTT-Publisher Startup
+
+Let’s go to MQTTX and click New Subscription
+
+![image-20250221145309920](4.png)
+
+ 
+
+Fill in Topic as yahboom/topic, then click the Confirm button in the lower right corner.
+
+![image-20250221145405504](5.png)
+
+Next, open the sample program mqtt-publisher in this section and make sure K230 is in a WIFI environment that can access the Internet.
+
+Modify WIFI connection SSID and password
+
+```python
+# WiFi配置参数 / WiFi configuration parameters
+WIFI_SSID = "WIFI SSID"          # WiFi名称 / WiFi name
+WIFI_PASSWORD = "WIFI PASSWORD" # WiFi密码 / WiFi password
+
+```
+
+Click Run Program and wait for console output
+
+```python
+连接WIFI: Yahboom.. Connecting..
+WIFI连接成功 WIFI Connected!
+
+```
+
+Let's go back to MQTTX and see that we have received the content published by K230.
+
+![image-20250221145928229](6.png)
+
+### Code Analysis
+
+For the complete code, please refer to the file [Source Code Summary/11.Network/06.mqtt/mqtt_publisher.py]
+
+### 1. **Module import part**
+
+The code first imports several key modules:
+
+- `from mqtt import MQTTClient`: The core module used to implement MQTT communication.
+- `import network`: Used to handle WiFi connections.
+- `import os`: Provides operating system related functions, which may be used for exit point checking ( `os.exitpoint()`).
+- `import machine`: Used for hardware control (although not used directly in this code).
+- `import time`: Used to implement delayed operation.
+
+These modules lay the foundation for subsequent WiFi connection and MQTT communication.
+
+### 2. **Configuration parameters**
+
+The code defines two sets of global configuration parameters:
+
+- 
+
+**WiFi Configuration** :
+
+  - `WIFI_SSID = "WIFI SSID"`: WiFi name.
+  - `WIFI_PASSWORD = "WIFI PASSWORD"`: WiFi password.
+  - These are placeholders and will need to be replaced with your actual WiFi credentials.
+
+- 
+
+**MQTT Configuration** :
+
+  - `MQTT_BROKER = "broker.emqx.io"`: Use the public EMQX MQTT server.
+  - `MQTT_PORT = 1883`: The standard MQTT port.
+  - `MQTT_TOPIC = "yahboom/topic"`: The topic of the message.
+
+These parameters are the core settings for program operation.
+
+### 3. **`connect_wifi`Functions**
+
+Here is a function for connecting to WiFi:
+
+- 
+
+**parameter** :
+
+  - `ssid`: WiFi name, the default value is `"Yahboom"`.
+  - `password`: WiFi password, the default value is `"yahboom890729"`.
+
+- 
+
+**Function** :
+
+  - Create a WiFi site object: `wifi_station = network.WLAN(0)`.
+  - Call `connect`the method to connect to the specified WiFi.
+  - By checking `ifconfig()[0]`(IP address) in a loop, until a non-positive address is obtained `0.0.0.0`, confirm that the connection is successful.
+  - Used `os.exitpoint()`, probably to handle exit points (used in MicroPython to check system events).
+
+- 
+
+**return** :
+
+  - Returns the IP address of the device: `wifi_station.ifconfig()[0]`.
+
+- 
+
+**Output** :
+
+  - Prints connection status information such as `"连接WIFI: {ssid}.. Connecting.."`and `"WIFI连接成功 WIFI Connected!"`.
+
+### 4. **Main program part**
+
+The main program `if __name__ == "__main__":`runs in the block:
+
+- 
+
+**WiFi connection** :
+
+  - Call `connect_wifi(WIFI_SSID, WIFI_PASSWORD)`to connect to WiFi.
+
+- 
+
+**MQTT client initialization** :
+
+  - Create an MQTT client instance: `client = MQTTClient("YAHBOOM-K230", MQTT_BROKER, port=MQTT_PORT)`.
+  - The client ID is `"YAHBOOM-K230"`, connect to the specified server and port.
+
+- 
+
+**Connect to the MQTT server** :
+
+  - Call `client.connect()`to establish a connection.
+
+- 
+
+**Message publishing cycle** :
+
+  - Use `for`a loop to send 100 messages.
+  - Each time a message is published `MQTT_TOPIC`, the content is `"Hello Yahboom! " + str(i)`(for example, `"Hello Yahboom! 0"`to `"Hello Yahboom! 99"`).
+  - Delay 500 milliseconds after each release: `time.sleep_ms(500)`.
+
+- 
+
+**Disconnect** :
+
+  - After the loop is finished, the call `client.disconnect()`is made to disconnect from the MQTT server.
+
+### flow chartMQTT操作流程/MQTT Operation FlowWiFi连接流程/WiFi Connection Flow配置阶段/Configuration PhaseIP为0.0.0.0/IP is 0.0.0.0获得有效IP/Valid IP计数<100/Count<100计数>=100/Count>=100清理阶段/Cleanup Phase最终清理/Final Cleanup断开MQTT连接/Disconnect MQTT连接MQTT服务器/Connect to MQTT Broker初始化MQTT客户端/Initialize MQTT Client消息发送循环/Message Sending Loop延时500ms/Delay 500ms发布消息/Publish Message检查计数/Check Count退出循环/Exit Loop创建WiFi站点/Create WiFi Station连接WiFi/Connect WiFi尝试连接/Attempt Connection检查IP/Check IP获取IP地址/Get IP Address设置WiFi参数/Set WiFi Parameters初始化配置/Initialize Configuration设置MQTT参数/Set MQTT Parameters开始/Start结束/End

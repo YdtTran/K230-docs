@@ -1,0 +1,59 @@
+# 1.Introduction to cv_lite
+
+# Introduction to cv_lite
+
+Introduction to cv_liteWhat is the CV_Lite Library?Why use the CV_Lite library?Additional Notes
+
+## What is the CV_Lite Library?
+
+The `cv_lite` module is a lightweight image processing module based on `OpenCV` for specific tasks. It provides accelerated methods for some common tasks, complementing the methods in the `image` module of `OpenCV`. It is important to note that it is not an `OpenCV` library and only provides accelerated versions of some tasks.
+
+## Why use the CV_Lite library?
+
+The K230 uses the OpenCV-based image processing library by default. Using the OpenCV image processing library does not fully utilize the powerful processing performance of the K230 chip. Using the `cv_lite` library, on the other hand, allows for higher frame rates and better detection results. Below is a frame rate comparison of some common functions.
+
+Note: Data sourced from Canaan Technology's official documentation.
+
+For inputs with the same resolution, we compared the processing efficiency of OpenMV processing an RGB565 image and cv_lite processing an RGB888 image. The resulting frame rate comparison results are shown in the table below. The following frame rates are only compared when processing a fixed scene. The actual frame rate may be affected by scene complexity, such as the number of circles. Please refer to the specific scene for accuracy.
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+In addition to the above optimizations, cv_lite also adds interfaces for performing morphological operations, white balance, exposure adjustment, and histogram statistics on RGB888 images using software processing:
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+## Additional Notes
+
+Here are explanations of common formats in the `cv_lite` module:
+
+- Input data format: `ulab.numpy.ndarray` type, typically obtained using `image.to_numpy_ref()`.
+- Converting `ulab.numpy.ndarray` back to the `image` instance type is typically accomplished using `img = image.Image(image_width, image_height, image.GRAYSCALE, alloc=image.ALLOC_REF, data=np_data)`. Note that the image type and data size meet the requirements.
+- The previous two steps do not reallocate memory; the same memory block is used, which is not very time-consuming.
+- RGB888 format data can be used with OpenMV's `image` module to convert it using `to_rgb565()`.
+
+For a complete API reference, please refer to Section 2 of this chapter, 2.cv_lite API Reference Manual.

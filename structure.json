@@ -1,0 +1,1424 @@
+[
+    {
+        "category": "1. Quick Start",
+        "lessons": [
+            {
+                "id": "15198",
+                "title": "0.Get start"
+            },
+            {
+                "id": "14970",
+                "title": "1. K230 firmware download and burning"
+            },
+            {
+                "id": "14971",
+                "title": "2. Install the programming environment"
+            },
+            {
+                "id": "14972",
+                "title": "3. Debug and run routines"
+            },
+            {
+                "id": "14973",
+                "title": "4. Offline running routine"
+            },
+            {
+                "id": "14974",
+                "title": "5. Micropython Quick Start"
+            },
+            {
+                "id": "14975",
+                "title": "6. GUI Program Instructions"
+            },
+            {
+                "id": "15631",
+                "title": "7.K230 module bracket installation tutorial"
+            },
+            {
+                "id": "15632",
+                "title": "8.K230 module 2DOF PTZ installation tutorial"
+            }
+        ]
+    },
+    {
+        "category": "2. Basic Courses",
+        "lessons": [
+            {
+                "id": "14977",
+                "title": "1.FPIOA pin assignment"
+            },
+            {
+                "id": "14978",
+                "title": "2.RGB lights"
+            },
+            {
+                "id": "14979",
+                "title": "3.Buzzer"
+            },
+            {
+                "id": "14980",
+                "title": "4.Buttons"
+            },
+            {
+                "id": "14981",
+                "title": "5.Serial communication"
+            },
+            {
+                "id": "14982",
+                "title": "6.I2C communication"
+            },
+            {
+                "id": "14983",
+                "title": "7.PWM"
+            },
+            {
+                "id": "14984",
+                "title": "8.WDT watchdog"
+            },
+            {
+                "id": "14985",
+                "title": "9.Timer"
+            },
+            {
+                "id": "14986",
+                "title": "10.Fourier Transform"
+            },
+            {
+                "id": "14987",
+                "title": "11.SHA256 encryption"
+            },
+            {
+                "id": "14988",
+                "title": "12.AES encryption"
+            },
+            {
+                "id": "14989",
+                "title": "13.Multithreading"
+            },
+            {
+                "id": "14990",
+                "title": "14.File reading and writing"
+            },
+            {
+                "id": "14991",
+                "title": "15.Image Display"
+            },
+            {
+                "id": "14992",
+                "title": "16.Touch Display"
+            },
+            {
+                "id": "14993",
+                "title": "17.Camera display"
+            },
+            {
+                "id": "14994",
+                "title": "18.Image Flip"
+            },
+            {
+                "id": "14995",
+                "title": "19.Camera"
+            }
+        ]
+    },
+    {
+        "category": "3. Draw the image",
+        "lessons": [
+            {
+                "id": "14997",
+                "title": "1. Draw the lines"
+            },
+            {
+                "id": "14998",
+                "title": "2. Draw the circle"
+            },
+            {
+                "id": "14999",
+                "title": "3. Draw the rectangle"
+            },
+            {
+                "id": "15000",
+                "title": "4. Draw the ellipse"
+            },
+            {
+                "id": "15001",
+                "title": "5. Draw the arrow"
+            },
+            {
+                "id": "15002",
+                "title": "6. Draw the crosshairs"
+            },
+            {
+                "id": "15003",
+                "title": "7. Draw text"
+            },
+            {
+                "id": "15004",
+                "title": "8. Draw key points"
+            }
+        ]
+    },
+    {
+        "category": "4. Graphics detection",
+        "lessons": [
+            {
+                "id": "15005",
+                "title": "1. Line segment detection"
+            },
+            {
+                "id": "15006",
+                "title": "2. Rectangle Detection"
+            },
+            {
+                "id": "15007",
+                "title": "3. Circle detection"
+            },
+            {
+                "id": "15008",
+                "title": "4. Object edge detection"
+            },
+            {
+                "id": "15009",
+                "title": "5. Line inspection basics：fast linear regression"
+            }
+        ]
+    },
+    {
+        "category": "5. Color recognition",
+        "lessons": [
+            {
+                "id": "15010",
+                "title": "1. Color recognition"
+            },
+            {
+                "id": "15011",
+                "title": "2. Object Counting"
+            },
+            {
+                "id": "15012",
+                "title": "3. Multi-color recognition"
+            },
+            {
+                "id": "15013",
+                "title": "4. K230 Color Line Patrol"
+            }
+        ]
+    },
+    {
+        "category": "6.CV_lite Image Processing Special Topic",
+        "lessons": [
+            {
+                "id": "16058",
+                "title": "1.Introduction to cv_lite"
+            },
+            {
+                "id": "16060",
+                "title": "2.cv_lite API Reference Manual"
+            },
+            {
+                "id": "16061",
+                "title": "3.Color Block Recognition - Grayscale Image"
+            },
+            {
+                "id": "16062",
+                "title": "4.Color Block Recognition - Color Image"
+            },
+            {
+                "id": "16063",
+                "title": "5.Circle Recognition - Grayscale Image"
+            },
+            {
+                "id": "16064",
+                "title": "6.Circle Recognition - Color Image"
+            },
+            {
+                "id": "16065",
+                "title": "7.Corner Recognition - Grayscale Image"
+            },
+            {
+                "id": "16066",
+                "title": "8.Corner Recognition - Color Image"
+            },
+            {
+                "id": "16067",
+                "title": "9.Edge Recognition - Grayscale Image"
+            },
+            {
+                "id": "16068",
+                "title": "10. Edge Recognition - Color Image"
+            },
+            {
+                "id": "16069",
+                "title": "11. Rectangle Recognition - Grayscale Image"
+            },
+            {
+                "id": "16070",
+                "title": "12.Rectangle Recognition - Color Image"
+            },
+            {
+                "id": "16071",
+                "title": "13.Rectangle recognition combined with corner recognition - grayscale image"
+            },
+            {
+                "id": "16072",
+                "title": "14.Rectangle recognition combined with corner recognition - color image"
+            },
+            {
+                "id": "16073",
+                "title": "15.Image Binarization - Grayscale"
+            },
+            {
+                "id": "16074",
+                "title": "16.Image Binarization - Color Image"
+            },
+            {
+                "id": "16075",
+                "title": "17.Exposure Adjustment"
+            },
+            {
+                "id": "16076",
+                "title": "18.Image Black Hat Operations"
+            },
+            {
+                "id": "16077",
+                "title": "19.Image Color Histogram"
+            },
+            {
+                "id": "16078",
+                "title": "20.Image Closing"
+            },
+            {
+                "id": "16079",
+                "title": "21.Image Expansion"
+            },
+            {
+                "id": "16081",
+                "title": "22.Image Corrosion"
+            },
+            {
+                "id": "16080",
+                "title": "23.Gaussian Blur"
+            },
+            {
+                "id": "16082",
+                "title": "24.Gradient Transformation"
+            },
+            {
+                "id": "16083",
+                "title": "25.Mean Fuzzy"
+            },
+            {
+                "id": "16084",
+                "title": "26.Image Opening"
+            },
+            {
+                "id": "16085",
+                "title": "27.Image Top Hat Operation"
+            },
+            {
+                "id": "16086",
+                "title": "28.PnP ranging"
+            },
+            {
+                "id": "16087",
+                "title": "29.Find rectangles and measure distances"
+            },
+            {
+                "id": "16088",
+                "title": "30.Image grayscale world white balance"
+            }
+        ]
+    },
+    {
+        "category": "7. Code type recognition",
+        "lessons": [
+            {
+                "id": "15016",
+                "title": "1.Barcode recognition"
+            },
+            {
+                "id": "15017",
+                "title": "2.QR code recognition"
+            },
+            {
+                "id": "15018",
+                "title": "3.AprilTag tag recognition"
+            },
+            {
+                "id": "15019",
+                "title": "4.DM code recognition"
+            }
+        ]
+    },
+    {
+        "category": "8. Face Recognition",
+        "lessons": [
+            {
+                "id": "15020",
+                "title": "1.[Must-read] General code structure and prerequisite knowledge of AI vision routines"
+            },
+            {
+                "id": "15021",
+                "title": "2.Face Detection"
+            },
+            {
+                "id": "15022",
+                "title": "3.Facial key point recognition"
+            },
+            {
+                "id": "15023",
+                "title": "4.Face orientation detection"
+            },
+            {
+                "id": "15024",
+                "title": "5.Face 3D Network"
+            },
+            {
+                "id": "15025",
+                "title": "6.Gaze direction detection"
+            },
+            {
+                "id": "15026",
+                "title": "7.Register for face recognition"
+            }
+        ]
+    },
+    {
+        "category": "9. Human body characteristics",
+        "lessons": [
+            {
+                "id": "15027",
+                "title": "1. Human body detection"
+            },
+            {
+                "id": "15028",
+                "title": "2. Human key point detection"
+            },
+            {
+                "id": "15029",
+                "title": "3. Human posture recognition"
+            },
+            {
+                "id": "15030",
+                "title": "4. Fall detection"
+            },
+            {
+                "id": "15031",
+                "title": "5. Palm detection"
+            },
+            {
+                "id": "15032",
+                "title": "6. Palm key point detection"
+            },
+            {
+                "id": "15033",
+                "title": "7. Palm key point classification"
+            },
+            {
+                "id": "15034",
+                "title": "8. Gesture Recognition"
+            },
+            {
+                "id": "15035",
+                "title": "9. Dynamic gesture recognition"
+            },
+            {
+                "id": "15036",
+                "title": "10. Rock, Paper, Scissors"
+            }
+        ]
+    },
+    {
+        "category": "10. Scenario Application",
+        "lessons": [
+            {
+                "id": "15037",
+                "title": "1.OCR character detection"
+            },
+            {
+                "id": "15038",
+                "title": "2.OCR character recognition"
+            },
+            {
+                "id": "15039",
+                "title": "3.yolov8n target detection"
+            },
+            {
+                "id": "15040",
+                "title": "4.yolov8n segmentation"
+            },
+            {
+                "id": "15041",
+                "title": "5. Self-learning object recognition"
+            },
+            {
+                "id": "15044",
+                "title": "6. License plate detection"
+            },
+            {
+                "id": "15043",
+                "title": "7. License Plate Recognition"
+            },
+            {
+                "id": "15045",
+                "title": "8. Target Tracking"
+            },
+            {
+                "id": "15046",
+                "title": "9. Fruit classification"
+            },
+            {
+                "id": "15047",
+                "title": "10. Garbage classification"
+            },
+            {
+                "id": "15048",
+                "title": "11. Road sign recognition"
+            }
+        ]
+    },
+    {
+        "category": "11. Audio and video processing",
+        "lessons": [
+            {
+                "id": "15049",
+                "title": "1. Audio Recording"
+            },
+            {
+                "id": "15050",
+                "title": "2. Play Audio"
+            },
+            {
+                "id": "15051",
+                "title": "3. Video Recording"
+            },
+            {
+                "id": "15052",
+                "title": "4. Play Video"
+            },
+            {
+                "id": "15053",
+                "title": "5. Keyword wake-up"
+            }
+        ]
+    },
+    {
+        "category": "12. Network Basics",
+        "lessons": [
+            {
+                "id": "15054",
+                "title": "1. Wireless network connection"
+            },
+            {
+                "id": "15055",
+                "title": "2. AP hotspot mode"
+            },
+            {
+                "id": "15056",
+                "title": "3. TCP-Server Example"
+            },
+            {
+                "id": "15057",
+                "title": "4. TCP-Client Example"
+            },
+            {
+                "id": "15058",
+                "title": "5. UDP-Server Example"
+            },
+            {
+                "id": "15059",
+                "title": "6. UDP-Client Example"
+            },
+            {
+                "id": "15060",
+                "title": "7. HTTP-Server Example"
+            },
+            {
+                "id": "15061",
+                "title": "8. HTTP-Client Example"
+            },
+            {
+                "id": "15062",
+                "title": "9. MQTT Quick Start"
+            },
+            {
+                "id": "15063",
+                "title": "10. MQTT-Publisher"
+            },
+            {
+                "id": "15064",
+                "title": "11. MQTT-Subscriber"
+            },
+            {
+                "id": "15065",
+                "title": "12. RTSP real-time image transmission"
+            },
+            {
+                "id": "15066",
+                "title": "13. RTSP real-time image transmission combined with AIDemo"
+            },
+            {
+                "id": "15067",
+                "title": "14. Call OpenRouter large model aggregation service"
+            },
+            {
+                "id": "15068",
+                "title": "15. Open the Resource Monitoring Panel"
+            }
+        ]
+    },
+    {
+        "category": "13. LVGL Graphical Interface",
+        "lessons": [
+            {
+                "id": "15069",
+                "title": "1. Introduction to LVGL"
+            },
+            {
+                "id": "15072",
+                "title": "2. Create a button"
+            },
+            {
+                "id": "15071",
+                "title": "3. Create a slider"
+            },
+            {
+                "id": "15073",
+                "title": "4. Create an Image"
+            },
+            {
+                "id": "15074",
+                "title": "5. Create a text box and keyboard"
+            }
+        ]
+    },
+    {
+        "category": "14. GUI Code Tutorial &amp; Secondary Development",
+        "lessons": [
+            {
+                "id": "17446",
+                "title": "01.GUI System Architecture"
+            },
+            {
+                "id": "17447",
+                "title": "02.Core Engine Initialization"
+            },
+            {
+                "id": "17448",
+                "title": "03.Application Discovery Mechanism in GUI"
+            },
+            {
+                "id": "17449",
+                "title": "04.Desktop Layout Algorithm"
+            },
+            {
+                "id": "17450",
+                "title": "05.Advanced UI Styling"
+            },
+            {
+                "id": "17451",
+                "title": "06.BaseApp Base Class Analysis"
+            },
+            {
+                "id": "17452",
+                "title": "07.Hello_World Practical"
+            },
+            {
+                "id": "17453",
+                "title": "08.GUI Application Lifecycle and Resource Management"
+            }
+        ]
+    },
+    {
+        "category": "15. Train your own model",
+        "lessons": [
+            {
+                "id": "15075",
+                "title": "1. Local deployment of yolo training environment"
+            },
+            {
+                "id": "15079",
+                "title": "2. Use online platforms for training"
+            }
+        ]
+    },
+    {
+        "category": "16.Touch Course",
+        "lessons": [
+            {
+                "id": "16712",
+                "title": "1.Touch point detection"
+            },
+            {
+                "id": "16713",
+                "title": "2.Touch Painting"
+            },
+            {
+                "id": "16714",
+                "title": "3.Touch to take a photo"
+            }
+        ]
+    },
+    {
+        "category": "17. Multi-master communication (purchased separately)",
+        "lessons": [
+            {
+                "id": "15713",
+                "title": "1.microbit_k230 color recognition"
+            },
+            {
+                "id": "15714",
+                "title": "2.microbit_k230 barcode recognition"
+            },
+            {
+                "id": "15715",
+                "title": "3.microbit_k230 QR code recognition"
+            },
+            {
+                "id": "15716",
+                "title": "4.microbit_k230 Apriltag code recognition"
+            },
+            {
+                "id": "15717",
+                "title": "5.microbit_k230 DM code recognition"
+            },
+            {
+                "id": "15718",
+                "title": "6.microbit_k230 face detection"
+            },
+            {
+                "id": "15719",
+                "title": "7.microbit_k230 looking direction"
+            },
+            {
+                "id": "15720",
+                "title": "8.microbit_k230 face recognition"
+            },
+            {
+                "id": "15729",
+                "title": "9.microbit_k230 human body detection"
+            },
+            {
+                "id": "15721",
+                "title": "10.microbit_k230 fall detection"
+            },
+            {
+                "id": "15722",
+                "title": "11.microbit_k230 palm detection"
+            },
+            {
+                "id": "15723",
+                "title": "12.microbit_k230 gesture recognition"
+            },
+            {
+                "id": "15724",
+                "title": "13.microbit_k230 OCR character recognition"
+            },
+            {
+                "id": "15725",
+                "title": "14.microbit_k230 object detection"
+            },
+            {
+                "id": "15726",
+                "title": "15.microbit_k230 target tracking"
+            },
+            {
+                "id": "15727",
+                "title": "16.microbit_k230 self-learning object recognition"
+            },
+            {
+                "id": "15728",
+                "title": "17.microbit_k230 license plate recognition"
+            },
+            {
+                "id": "15696",
+                "title": "1.arduino_k230 color recognition"
+            },
+            {
+                "id": "15697",
+                "title": "2.arduino_k230 barcode recognition"
+            },
+            {
+                "id": "15698",
+                "title": "3.arduino_k230 QR code recognition"
+            },
+            {
+                "id": "15699",
+                "title": "4.arduino_k230 Apriltag code recognition"
+            },
+            {
+                "id": "15700",
+                "title": "5.arduino_k230 DM code recognition"
+            },
+            {
+                "id": "15701",
+                "title": "6.arduino_k230 face detection"
+            },
+            {
+                "id": "15702",
+                "title": "7.arduino_k230 looking direction"
+            },
+            {
+                "id": "15703",
+                "title": "8.arduino_k230 face recognition"
+            },
+            {
+                "id": "15704",
+                "title": "9.arduino_k230 human body detection"
+            },
+            {
+                "id": "15705",
+                "title": "10.arduino_k230 fall detection"
+            },
+            {
+                "id": "15706",
+                "title": "11.arduino_k230 palm detection"
+            },
+            {
+                "id": "15707",
+                "title": "12.arduino_k230 gesture recognition"
+            },
+            {
+                "id": "15708",
+                "title": "13.arduino_k230 OCR character recognition"
+            },
+            {
+                "id": "15709",
+                "title": "14.arduino_k230 object detection"
+            },
+            {
+                "id": "15710",
+                "title": "15.arduino_k230 target tracking"
+            },
+            {
+                "id": "15711",
+                "title": "16.arduino_k230 self-learning object recognition"
+            },
+            {
+                "id": "15712",
+                "title": "17.arduino_k230 license plate recognition"
+            },
+            {
+                "id": "15077",
+                "title": "1.k230 color recognition"
+            },
+            {
+                "id": "15078",
+                "title": "2.k230 barcode recognition"
+            },
+            {
+                "id": "15080",
+                "title": "3.k230 QR code recognition"
+            },
+            {
+                "id": "15081",
+                "title": "4.k230Apriltag code recognition"
+            },
+            {
+                "id": "15082",
+                "title": "5.k230DM code recognition"
+            },
+            {
+                "id": "15083",
+                "title": "6.k230 face detection"
+            },
+            {
+                "id": "15084",
+                "title": "7.k230 gaze direction"
+            },
+            {
+                "id": "15086",
+                "title": "8.k230 face recognition"
+            },
+            {
+                "id": "15087",
+                "title": "9.k230 human body detection"
+            },
+            {
+                "id": "15088",
+                "title": "10.k230 fall detection"
+            },
+            {
+                "id": "15089",
+                "title": "11.k230 palm detection"
+            },
+            {
+                "id": "15090",
+                "title": "12.k230 gesture recognition"
+            },
+            {
+                "id": "15091",
+                "title": "13.k230OCR character recognition"
+            },
+            {
+                "id": "15092",
+                "title": "14.k230 object detection"
+            },
+            {
+                "id": "15093",
+                "title": "15.k230 target tracking"
+            },
+            {
+                "id": "15094",
+                "title": "16.k230 self-learning object recognition"
+            },
+            {
+                "id": "15095",
+                "title": "17.k230 license plate recognition"
+            },
+            {
+                "id": "15096",
+                "title": "1.k230 color recognition"
+            },
+            {
+                "id": "15097",
+                "title": "2.k230 barcode recognition"
+            },
+            {
+                "id": "15098",
+                "title": "3.k230 QR code recognition"
+            },
+            {
+                "id": "15099",
+                "title": "4.k230Apriltag code recognition"
+            },
+            {
+                "id": "15100",
+                "title": "5.k230DM code recognition"
+            },
+            {
+                "id": "15101",
+                "title": "6.k230 face detection"
+            },
+            {
+                "id": "15102",
+                "title": "7.k230 gaze direction"
+            },
+            {
+                "id": "15103",
+                "title": "8.k230 face recognition"
+            },
+            {
+                "id": "15104",
+                "title": "9.k230 human body detection"
+            },
+            {
+                "id": "15105",
+                "title": "10.k230 fall detection"
+            },
+            {
+                "id": "15106",
+                "title": "11.k230 palm detection"
+            },
+            {
+                "id": "15107",
+                "title": "12.k230 gesture recognition"
+            },
+            {
+                "id": "15108",
+                "title": "13.k230OCR character recognition"
+            },
+            {
+                "id": "15109",
+                "title": "14.k230 object detection"
+            },
+            {
+                "id": "15110",
+                "title": "15.k230 target tracking"
+            },
+            {
+                "id": "15111",
+                "title": "16.k230 self-learning object recognition"
+            },
+            {
+                "id": "15112",
+                "title": "17.k230 license plate recognition"
+            },
+            {
+                "id": "15113",
+                "title": "1.k230 color recognition"
+            },
+            {
+                "id": "15114",
+                "title": "2.k230 barcode recognition"
+            },
+            {
+                "id": "15115",
+                "title": "3.k230 QR code recognition"
+            },
+            {
+                "id": "15116",
+                "title": "4.k230Apriltag code recognition"
+            },
+            {
+                "id": "15117",
+                "title": "5.k230DM code recognition"
+            },
+            {
+                "id": "15118",
+                "title": "6.k230 face detection"
+            },
+            {
+                "id": "15119",
+                "title": "7.k230 gaze direction"
+            },
+            {
+                "id": "15120",
+                "title": "8.k230 face recognition"
+            },
+            {
+                "id": "15121",
+                "title": "9.k230 human body detection"
+            },
+            {
+                "id": "15122",
+                "title": "10.k230 fall detection"
+            },
+            {
+                "id": "15123",
+                "title": "11.k230 palm detection"
+            },
+            {
+                "id": "15124",
+                "title": "12.k230 gesture recognition"
+            },
+            {
+                "id": "15125",
+                "title": "13.k230OCR character recognition"
+            },
+            {
+                "id": "15126",
+                "title": "14.k230 object detection"
+            },
+            {
+                "id": "15127",
+                "title": "15.k230 target tracking"
+            },
+            {
+                "id": "15128",
+                "title": "16.k230 self-learning object recognition"
+            },
+            {
+                "id": "15129",
+                "title": "17.k230 license plate recognition"
+            },
+            {
+                "id": "15130",
+                "title": "1.k230 color recognition"
+            },
+            {
+                "id": "15131",
+                "title": "2.k230 barcode recognition"
+            },
+            {
+                "id": "15132",
+                "title": "3.k230 QR code recognition"
+            },
+            {
+                "id": "15133",
+                "title": "4.k230Apriltag code recognition"
+            },
+            {
+                "id": "15134",
+                "title": "5.k230DM code recognition"
+            },
+            {
+                "id": "15135",
+                "title": "6.k230 face detection"
+            },
+            {
+                "id": "15136",
+                "title": "7.k230 gaze direction"
+            },
+            {
+                "id": "15137",
+                "title": "8.k230 face recognition"
+            },
+            {
+                "id": "15138",
+                "title": "9.k230 human body detection"
+            },
+            {
+                "id": "15139",
+                "title": "10.k230 fall detection"
+            },
+            {
+                "id": "15140",
+                "title": "11.k230 palm detection"
+            },
+            {
+                "id": "15141",
+                "title": "12.k230 gesture recognition"
+            },
+            {
+                "id": "15142",
+                "title": "13.k230OCR character recognition"
+            },
+            {
+                "id": "15143",
+                "title": "14.k230 object detection"
+            },
+            {
+                "id": "15144",
+                "title": "15.k230 target tracking"
+            },
+            {
+                "id": "15145",
+                "title": "16.k230 self-learning object recognition"
+            },
+            {
+                "id": "15146",
+                "title": "17.k230 license plate recognition"
+            },
+            {
+                "id": "15147",
+                "title": "1.k230 color recognition"
+            },
+            {
+                "id": "15148",
+                "title": "2.k230 barcode recognition"
+            },
+            {
+                "id": "15149",
+                "title": "3.k230 QR code recognition"
+            },
+            {
+                "id": "15150",
+                "title": "4.k230Apriltag code recognition"
+            },
+            {
+                "id": "15151",
+                "title": "5.k230DM code recognition"
+            },
+            {
+                "id": "15152",
+                "title": "6.k230 face detection"
+            },
+            {
+                "id": "15153",
+                "title": "7.k230 gaze direction"
+            },
+            {
+                "id": "15154",
+                "title": "8.k230 face recognition"
+            },
+            {
+                "id": "15155",
+                "title": "9.k230 human body detection"
+            },
+            {
+                "id": "15156",
+                "title": "10.k230 fall detection"
+            },
+            {
+                "id": "15157",
+                "title": "11.k230 palm detection"
+            },
+            {
+                "id": "15158",
+                "title": "12.k230 gesture recognition"
+            },
+            {
+                "id": "15159",
+                "title": "13.k230OCR character recognition"
+            },
+            {
+                "id": "15160",
+                "title": "14.k230 object detection"
+            },
+            {
+                "id": "15161",
+                "title": "15.k230 target tracking"
+            },
+            {
+                "id": "15162",
+                "title": "16.k230 self-learning object recognition"
+            },
+            {
+                "id": "15163",
+                "title": "17.k230 license plate recognition"
+            },
+            {
+                "id": "15164",
+                "title": "1.k230 color recognition"
+            },
+            {
+                "id": "15165",
+                "title": "2.k230 barcode recognition"
+            },
+            {
+                "id": "15166",
+                "title": "3.k230 QR code recognition"
+            },
+            {
+                "id": "15167",
+                "title": "4.k230Apriltag code recognition"
+            },
+            {
+                "id": "15168",
+                "title": "5.k230DM code recognition"
+            },
+            {
+                "id": "15169",
+                "title": "6.k230 face detection"
+            },
+            {
+                "id": "15170",
+                "title": "7.k230 gaze direction"
+            },
+            {
+                "id": "15171",
+                "title": "8.k230 face recognition"
+            },
+            {
+                "id": "15172",
+                "title": "9.k230 human body detection"
+            },
+            {
+                "id": "15173",
+                "title": "10.k230 fall detection"
+            },
+            {
+                "id": "15174",
+                "title": "11.k230 palm detection"
+            },
+            {
+                "id": "15175",
+                "title": "12.k230 gesture recognition"
+            },
+            {
+                "id": "15176",
+                "title": "13.k230OCR character recognition"
+            },
+            {
+                "id": "15177",
+                "title": "14.k230 object detection"
+            },
+            {
+                "id": "15178",
+                "title": "15.k230 target tracking"
+            },
+            {
+                "id": "15179",
+                "title": "16.k230 self-learning object recognition"
+            },
+            {
+                "id": "15180",
+                "title": "17.k230 license plate recognition"
+            },
+            {
+                "id": "15181",
+                "title": "1. stm32_k230 color recognition"
+            },
+            {
+                "id": "15182",
+                "title": "2. stm32_k230 barcode recognition"
+            },
+            {
+                "id": "15183",
+                "title": "3. stm32_k230 QR code recognition"
+            },
+            {
+                "id": "15184",
+                "title": "4. stm32_k230Apriltag code recognition"
+            },
+            {
+                "id": "15185",
+                "title": "5. stm32_k230DM code recognition"
+            },
+            {
+                "id": "15186",
+                "title": "6. stm32_k230 face detection"
+            },
+            {
+                "id": "15187",
+                "title": "7.stm32_k230 looking direction"
+            },
+            {
+                "id": "15188",
+                "title": "8. stm32_k230 face recognition"
+            },
+            {
+                "id": "15189",
+                "title": "9. stm32_k230 human body detection"
+            },
+            {
+                "id": "15190",
+                "title": "10. stm32_k230 fall detection"
+            },
+            {
+                "id": "15191",
+                "title": "11. stm32_k230 palm detection"
+            },
+            {
+                "id": "15192",
+                "title": "12. stm32_k230 gesture recognition"
+            },
+            {
+                "id": "15193",
+                "title": "13. stm32_k230OCR character recognition"
+            },
+            {
+                "id": "15194",
+                "title": "14. stm32_k230 object detection"
+            },
+            {
+                "id": "15195",
+                "title": "15. stm32_k230 target tracking"
+            },
+            {
+                "id": "15196",
+                "title": "16. stm32_k230 self-learning object recognition"
+            },
+            {
+                "id": "15197",
+                "title": "17.stm32_k230 license plate recognition"
+            }
+        ]
+    },
+    {
+        "category": "18.Extension case (purchase separately)",
+        "lessons": [
+            {
+                "id": "15384",
+                "title": "1.Moving target control and automatic tracking system"
+            },
+            {
+                "id": "15385",
+                "title": "2.Human body recognition alarm"
+            },
+            {
+                "id": "15386",
+                "title": "3.Gesture Recognition"
+            },
+            {
+                "id": "15387",
+                "title": "4.Rock Paper Scissors"
+            },
+            {
+                "id": "15388",
+                "title": "5.Fruit sorting"
+            },
+            {
+                "id": "15389",
+                "title": "6.Color Tracking"
+            },
+            {
+                "id": "15390",
+                "title": "7.Face Tracking"
+            },
+            {
+                "id": "15447",
+                "title": "1.Visual tracking"
+            },
+            {
+                "id": "15448",
+                "title": "2.Color tracking"
+            },
+            {
+                "id": "15449",
+                "title": "3.Color response"
+            },
+            {
+                "id": "15450",
+                "title": "4.Road sign recognition"
+            },
+            {
+                "id": "15451",
+                "title": "5.Machine code tracking"
+            },
+            {
+                "id": "15452",
+                "title": "6.QR code recognition action"
+            },
+            {
+                "id": "15453",
+                "title": "7.Autonomous avoid"
+            },
+            {
+                "id": "15454",
+                "title": "8.License plate tracking"
+            },
+            {
+                "id": "15455",
+                "title": "9.Face tracking"
+            },
+            {
+                "id": "15456",
+                "title": "10.Gaze direction tracking"
+            },
+            {
+                "id": "15457",
+                "title": "11.Palm tracking"
+            },
+            {
+                "id": "15458",
+                "title": "12.Target tracking"
+            },
+            {
+                "id": "15459",
+                "title": "13.Human body tracking"
+            },
+            {
+                "id": "15460",
+                "title": "14.OCR character recognition action"
+            },
+            {
+                "id": "15461",
+                "title": "1.Visual tracking"
+            },
+            {
+                "id": "15462",
+                "title": "2.Color tracking"
+            },
+            {
+                "id": "15463",
+                "title": "3.Color response"
+            },
+            {
+                "id": "15464",
+                "title": "4.Road sign recognition"
+            },
+            {
+                "id": "15465",
+                "title": "5.Machine code tracking"
+            },
+            {
+                "id": "15466",
+                "title": "6.QR code recognition action"
+            },
+            {
+                "id": "15467",
+                "title": "7.Autonomous avoid"
+            },
+            {
+                "id": "15468",
+                "title": "8.License plate tracking"
+            },
+            {
+                "id": "15469",
+                "title": "9.Face tracking"
+            },
+            {
+                "id": "15470",
+                "title": "10.Gaze direction tracking"
+            },
+            {
+                "id": "15471",
+                "title": "11.Palm tracking"
+            },
+            {
+                "id": "15472",
+                "title": "12.Target tracking"
+            },
+            {
+                "id": "15473",
+                "title": "13.Human body tracking"
+            },
+            {
+                "id": "15474",
+                "title": "14.OCR character recognition action"
+            }
+        ]
+    }
+]
