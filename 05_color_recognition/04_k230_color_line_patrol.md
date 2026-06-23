@@ -213,4 +213,4 @@ In the loop, acquire the image and detect the specified color. Adjust the motor 
 
 ### 3.7 Flowchart
 
-![image-20250423221301895](1.png)
+![image-20250423221301895](https://www.yahboom.net/public/upload/upload-html/1747305415/1.png)

@@ -14,7 +14,7 @@ The example code is in [Source code/08.Body/02.person_keypoint_detect.py]
 
 After connecting to the IDE, run the sample code in this section, and use K230 to aim at a picture with multiple human bodies. You can see the positions of the key points of the human bodies marked on the screen. For scenes with multiple human bodies, they can also be identified more accurately.
 
-![image-20250214111705723](1.png)
+![image-20250214111705723](https://www.yahboom.net/public/upload/upload-html/1747306933/1.png)
 
 ## Code Explanation
 
@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
 #### flow chart
 
-![image-20250214113556111](flow1.png)
+![image-20250214113556111](https://www.yahboom.net/public/upload/upload-html/1747306933/flow1.png)
 
 ## Brief description of human key point detection algorithm
 

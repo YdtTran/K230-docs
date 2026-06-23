@@ -12,7 +12,7 @@ We have recorded audio with K230. Now let's try to play the audio.
 
 Here our speakers are not integrated on K230, and need to be connected externally through the reserved audio output interface
 
-![image-20250403142125958](1.png)
+![image-20250403142125958](https://www.yahboom.net/public/upload/upload-html/1747308327/1.png)
 
 The example code for this section is located in: [Source Code/10.Media/02.play_audio.py]
 

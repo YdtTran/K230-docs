@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/19.rgb888_dilate.py]
 
 In this section, we'll use the `cv_lite` extension module to implement image dilation in RGB888 format on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675163/1.png)
 
 ## Principle Explanation
 

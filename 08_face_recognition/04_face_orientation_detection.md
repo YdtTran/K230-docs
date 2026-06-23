@@ -14,15 +14,15 @@ The code in this section is in [Source code/07.Face/03.face_pose.py]
 
 After connecting to the IDE, run the example code in this section and aim the K230 at the face. You can see that the direction of the current face will be displayed on the screen.
 
-![image-20250210150910694](0.png)
+![image-20250210150910694](https://www.yahboom.net/public/upload/upload-html/1747306636/0.png)
 
  
 
 This model is highly compatible, and humanoid creatures can occasionally be recognized.
 
-![image-20250210145726639](1.png)
+![image-20250210145726639](https://www.yahboom.net/public/upload/upload-html/1747306636/1.png)
 
-![Milk Dragon (online-video-cutter.com) (1)](1.gif)
+![Milk Dragon (online-video-cutter.com) (1)](https://www.yahboom.net/public/upload/upload-html/1747306636/1.gif)
 
 ## Code Explanation
 

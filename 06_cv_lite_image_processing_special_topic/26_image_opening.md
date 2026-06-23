@@ -10,7 +10,7 @@ Run the example code in this section [Source code/06.cv_lite/24.rgb888_open.py]
 
 In this section, we will combine the `cv_lite` extension module to implement the image opening processing in RGB888 format on embedded devices.
 
-![1](1.png)
+![1](https://www.yahboom.net/public/upload/upload-html/1755675231/1.png)
 
 ## Principle explanation
 

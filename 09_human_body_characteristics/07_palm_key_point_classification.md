@@ -34,9 +34,9 @@ The supported gestures are as follows:
 
  
 
-![image-20250214164634192](1.png)
+![image-20250214164634192](https://www.yahboom.net/public/upload/upload-html/1747307040/1.png)
 
-![image-20250214164702027](2.png)
+![image-20250214164702027](https://www.yahboom.net/public/upload/upload-html/1747307040/2.png)
 
 ## Code Explanation
 
@@ -151,4 +151,4 @@ The core code for judging gestures is as follows
 
 #### flow chart
 
-![image-20250214171033121](flow.png)
+![image-20250214171033121](https://www.yahboom.net/public/upload/upload-html/1747307040/flow.png)

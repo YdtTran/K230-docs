@@ -12,7 +12,7 @@ This section is based on color block recognition for RGB888 (color) images. The 
 
 Observe the frame rate output on the serial terminal. When the power supply is stable, the frame rate can be stable at around 55 frames.
 
-![image-20250804203210309](1.png)
+![image-20250804203210309](https://www.yahboom.net/public/upload/upload-html/1755674754/1.png)
 
 ## Code Explanation
 

@@ -35,7 +35,7 @@ def main():
 
 Click Run, the effect is as shown
 
-![slider](slider.gif)
+![slider](https://www.yahboom.net/public/upload/upload-html/1747309517/slider.gif)
 
 Next, let's get the current progress in real time.
 
@@ -57,7 +57,7 @@ The e in the callback function refers to the event that initiates the callback. 
 
 Click Run to view the output in the serial terminal
 
-![image-20250224160448292](1.png)
+![image-20250224160448292](https://www.yahboom.net/public/upload/upload-html/1747309517/1.png)
 
 Known BUG, when dragging the slider, it will sometimes automatically slide to 0. The cause of this problem has not been found yet.
 
@@ -67,4 +67,4 @@ Through the above steps, we can successfully create an lvgl program with a slide
 
 Complete code file [Source code/12.Lvgl/03.lvgl_slider.py]
 
-![image-20250224161029770](flow.png)
+![image-20250224161029770](https://www.yahboom.net/public/upload/upload-html/1747309517/flow.png)

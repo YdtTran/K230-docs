@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/6.rgb888_find_rectangle_
 
 In this section, we'll use the `cv_lite` extension module to implement rectangle detection for RGB888 images on an embedded device and draw a rectangle and its corner points.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674958/1.png)
 
 ## Principle Explanation
 

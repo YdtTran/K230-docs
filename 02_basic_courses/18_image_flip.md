@@ -6,7 +6,7 @@ Camera image flipCamera horizontal mirroring (flipping)API DescriptionRoutinesCa
 
 The image captured by the camera before flipping is shown in the figure:
 
-![image-20250207191401640](2.png)
+![image-20250207191401640](https://www.yahboom.net/public/upload/upload-html/1747304168/2.png)
 
  
 
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
 Routine execution effect:
 
-![image-20250207191146626](1.png)
+![image-20250207191146626](https://www.yahboom.net/public/upload/upload-html/1747304168/1.png)
 
  
 
@@ -324,4 +324,4 @@ if __name__ == "__main__":
 
 The execution effect of the routine is as follows:
 
-![image-20250207192025377](3.png)
+![image-20250207192025377](https://www.yahboom.net/public/upload/upload-html/1747304168/3.png)

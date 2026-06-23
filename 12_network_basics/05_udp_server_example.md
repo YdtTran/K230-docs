@@ -34,13 +34,13 @@ Next, we use IPConfig to check the local network IP. The operation methods of ea
 
 After opening it, if you are connected via a network cable, find [Ethernet Adapter Ethernet] and find the [IPv4 Address] in this column. This is the local host address we need to fill in.
 
-![image-20250221095530292](1.png)
+![image-20250221095530292](https://www.yahboom.net/public/upload/upload-html/1747308752/1.png)
 
 Similarly, if you are connected to WIFI, find the [IPv4 Address] in the [Wireless LAN Adapter WLAN] section.
 
 Then we open the network debugging assistant NetAssist.exe provided in the attachment and fill in the IP address and port information
 
-![image-20250221100434390](2.png)
+![image-20250221100434390](https://www.yahboom.net/public/upload/upload-html/1747308752/2.png)
 
 Since port 8081 is now a commonly used port, it may be occupied. If port 8081 is occupied, you can choose to change the port number to any number between 0 and 65535. Be careful to avoid some commonly used network ports to avoid occupation. Or search by yourself: How to force the process occupying port 8081 when it is occupied
 
@@ -50,7 +50,7 @@ In the network debugging assistant, we send Hello Yahboom
 
 Note: Because the network environment was switched when the screenshot was taken, the local host address and remote host address are inconsistent with the above picture. Please refer to the IP address obtained by the IP address query method described in the above picture.
 
-![image-20250407164541930](3.png)
+![image-20250407164541930](https://www.yahboom.net/public/upload/upload-html/1747308752/3.png)
 
 The receiving end of K230 will receive the message
 

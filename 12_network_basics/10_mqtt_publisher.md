@@ -16,17 +16,17 @@ In this section, we use K230 to implement the MQTT publisher function.
 
 Before running the example, we need to install MQTTX as debugging software. You can find the installation package of this software in our supporting materials (Windows version. Other system versions can be found in this link [MQTTX download](https://mqttx.app/downloads) )
 
-![image-20250221143100208](1.png)
+![image-20250221143100208](https://www.yahboom.net/public/upload/upload-html/1747308940/1.png)
 
 The installation steps are relatively simple, just keep clicking “Next”.
 
 After the installation is complete, we open the program and click "New Connection"
 
-![image-20250221143322191](2.png)
+![image-20250221143322191](https://www.yahboom.net/public/upload/upload-html/1747308940/2.png)
 
 Then fill in the information as shown below
 
-![image-20250221143621050](3.png)
+![image-20250221143621050](https://www.yahboom.net/public/upload/upload-html/1747308940/3.png)
 
 The Host and Port here refer to the address information of the MQTT server. In our example, we use the free public MQTT server provided by EMQX. The server information can be found in this link:
 
@@ -38,11 +38,11 @@ Of course, in actual scenarios (real business scenarios), please deploy the MQTT
 
 After filling in the form, click Connection in the upper right corner and wait for the Connected button to pop up, indicating that the connection is successful.
 
-![image-20250221144653046](7.png)
+![image-20250221144653046](https://www.yahboom.net/public/upload/upload-html/1747308940/7.png)
 
 If you need to adjust the language, you can do it here:
 
-![image-20250221113921214](language.png)
+![image-20250221113921214](https://www.yahboom.net/public/upload/upload-html/1747308940/language.png)
 
  
 
@@ -50,13 +50,13 @@ If you need to adjust the language, you can do it here:
 
 Let’s go to MQTTX and click New Subscription
 
-![image-20250221145309920](4.png)
+![image-20250221145309920](https://www.yahboom.net/public/upload/upload-html/1747308940/4.png)
 
  
 
 Fill in Topic as yahboom/topic, then click the Confirm button in the lower right corner.
 
-![image-20250221145405504](5.png)
+![image-20250221145405504](https://www.yahboom.net/public/upload/upload-html/1747308940/5.png)
 
 Next, open the sample program mqtt-publisher in this section and make sure K230 is in a WIFI environment that can access the Internet.
 
@@ -79,7 +79,7 @@ WIFI连接成功 WIFI Connected!
 
 Let's go back to MQTTX and see that we have received the content published by K230.
 
-![image-20250221145928229](6.png)
+![image-20250221145928229](https://www.yahboom.net/public/upload/upload-html/1747308940/6.png)
 
 ### Code Analysis
 

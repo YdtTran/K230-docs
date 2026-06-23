@@ -16,27 +16,27 @@ Open the [0. Development Board Information] directory and find the installer nam
 
 Double-click to open
 
-![image-20250331211853264](1.png)
+![image-20250331211853264](https://www.yahboom.net/public/upload/upload-html/1747302119/1.png)
 
 Click 【Next】
 
-![image-20250331212052999](2.png)
+![image-20250331212052999](https://www.yahboom.net/public/upload/upload-html/1747302119/2.png)
 
 Click Browse to select the installation directory. To reduce the possibility of abnormalities, please select a path that does not contain Chinese characters
 
-![image-20250331212255365](3.png)
+![image-20250331212255365](https://www.yahboom.net/public/upload/upload-html/1747302119/3.png)
 
 Check "I accept the license" and click Next
 
 Click 【Next】 and 【Install】 is enough
 
-![image-20250331212410077](4.png)
+![image-20250331212410077](https://www.yahboom.net/public/upload/upload-html/1747302119/4.png)
 
-![image-20250331212500852](5.png)
+![image-20250331212500852](https://www.yahboom.net/public/upload/upload-html/1747302119/5.png)
 
 After the installation is complete, CanMV IDE will automatically start
 
-![image-20250331212812023](6.png)
+![image-20250331212812023](https://www.yahboom.net/public/upload/upload-html/1747302119/6.png)
 
 Among them
 
@@ -54,4 +54,4 @@ Answer: When you click the terminate button, an IDE Interrupt Exception will act
 
 Turn on/off the toolbar [Tools]-》[Automatically reconnect to CanMV]
 
-![image-20250331213423994](7.png)
+![image-20250331213423994](https://www.yahboom.net/public/upload/upload-html/1747302119/7.png)

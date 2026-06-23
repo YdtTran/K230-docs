@@ -130,4 +130,4 @@ if __name__ == "__main__":
 
 You can see that we draw a circle in the center of the screen that looks like a "mechanical bearing" or "wheel".
 
-![image-20250207202644235](1.png)
+![image-20250207202644235](https://www.yahboom.net/public/upload/upload-html/1747304557/1.png)

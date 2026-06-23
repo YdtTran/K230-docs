@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/23.rgb888_mean_blur.py]
 
 In this section, we will use the `cv_lite` extension module to implement mean blur filtering for RGB888 images on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675216/1.png)
 
 ## Principle Explanation
 

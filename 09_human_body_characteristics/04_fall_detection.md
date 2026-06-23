@@ -16,7 +16,7 @@ The example code is in [Source code/08.Body/04.falldown_detect.py]
 
 The results of the routine are as follows: K230 will identify the status of the person in the picture (falling/not falling) and give the corresponding confidence level.
 
-![image-20250214115658024](1.png)
+![image-20250214115658024](https://www.yahboom.net/public/upload/upload-html/1747306976/1.png)
 
  
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
 ### flow chart
 
-![image-20250214140619419](flow2.png)
+![image-20250214140619419](https://www.yahboom.net/public/upload/upload-html/1747306976/flow2.png)
 
  
 

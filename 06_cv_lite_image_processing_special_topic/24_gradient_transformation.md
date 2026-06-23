@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/18.rgb888_gradient.py]
 
 In this section, we will use the `cv_lite` extension module to implement RGB888 image gradient processing on an embedded device.
 
-![image-20250804210154029](1.png) 
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675199/1.png) 
 
 ## Principle Explanation
 

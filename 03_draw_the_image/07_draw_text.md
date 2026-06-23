@@ -121,4 +121,4 @@ if __name__ == "__main__":
 
 You can see that we draw a string of "Hello World" and "Hello, World!" in a straight line in the center of the screen.
 
-![image-20250207214406300](1.png)
+![image-20250207214406300](https://www.yahboom.net/public/upload/upload-html/1747304656/1.png)

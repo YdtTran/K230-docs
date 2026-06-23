@@ -22,7 +22,7 @@ Since the PWM signal cannot be seen directly, an oscilloscope is needed to view 
 
 Connect channel 1 of the oscilloscope to IO42, channel 2 to IO43, and GND to ground.
 
-![image-20250424173910133](image-20250424173910133.png)
+![image-20250424173910133](https://www.yahboom.net/public/upload/upload-html/1747303777/image-20250424173910133.png)
 
  
 
@@ -79,4 +79,4 @@ while True:
 
 Then observe the level signal on the oscilloscope. As shown in the figure below:
 
-![image-20250424171715091](image-20250424171715091.png)
+![image-20250424171715091](https://www.yahboom.net/public/upload/upload-html/1747303777/image-20250424171715091.png)

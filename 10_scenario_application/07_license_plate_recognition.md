@@ -12,9 +12,9 @@ In this section, we will learn how to use K230 to realize the license plate reco
 
 Let’s use the picture from the previous section as an example:
 
-![image-20250218144010394](1.png)
+![image-20250218144010394](https://www.yahboom.net/public/upload/upload-html/1747307872/1.png)
 
-![image-20250218145243877](2.png)
+![image-20250218145243877](https://www.yahboom.net/public/upload/upload-html/1747307872/2.png)
 
  
 
@@ -195,4 +195,4 @@ class LicenceRec:
 
 #### flow chart
 
-![image-20250218145939574](flow.png)
+![image-20250218145939574](https://www.yahboom.net/public/upload/upload-html/1747307872/flow.png)

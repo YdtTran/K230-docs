@@ -12,7 +12,7 @@ In this section, we will use the `cv_lite` extension module to implement edge de
 
 Note: The implementation results in this section are the same as in the previous section, but the edge detection API used is different. The algorithm used in this section supports color images in RGB888 format.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674862/1.png)
 
 ## Code Overview
 

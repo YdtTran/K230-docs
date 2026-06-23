@@ -10,7 +10,7 @@ The source code file for this example is named `enhanced_touch_drawing.py`.
 
 Connect to the IDE and run the code. You will see a drawing application interface with a canvas and toolbar. You can draw on the canvas by touching the screen, select different colors and brush sizes, and clear the canvas. The toolbar contains color selection, brush size adjustment, and control buttons (such as clearing the screen).
 
-![image-20251011183143049](1.png)
+![image-20251011183143049](https://www.yahboom.net/public/upload/upload-html/1760415689/1.png)
 
 ## Code Explanation
 

@@ -44,7 +44,7 @@ Use a type-C data cable to connect the K230 module to the computer USB port.
 
 If it is the first time to connect, the K230 USB Boot Device will be displayed as an exclamation mark in the device manager, and the K230 driver needs to be installed first.
 
-![image-20250424094024373](image-20250424094024373.png)
+![image-20250424094024373](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250424094024373.png)
 
 Note: Since the K230 vision module consumes a lot of power, please use the USB3.0 interface to connect the device.
 
@@ -54,13 +54,13 @@ Download the driver tool from the K230 vision module data, the name is: zadig-2.
 
 Double-click the run file, select K230 USB Boot Device, and then click Install Driver to start installing the driver.
 
-![image-20250423220759703](image-20250423220759703.png)
+![image-20250423220759703](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250423220759703.png)
 
 Note: This tool only needs to install the driver once.
 
 After installing the driver, replug the K230 vision module and you can see that the exclamation mark has disappeared, indicating that the driver has been installed.
 
-![image-20250424094457056](image-20250424094457056.png)
+![image-20250424094457056](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250424094457056.png)
 
 ## Install the burning tool
 
@@ -74,30 +74,30 @@ Note that the decompression path should not contain Chinese.
 
 Click the [Open] button and select the firmware you just decompressed. You need to confirm that the image is checked.
 
-![image-20250423180455875](image-20250423180455875.png)
+![image-20250423180455875](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250423180455875.png)
 
 Select [SD Card] in [Target Media]
 
-![image-20250423180423534](image-20250423180423534.png)
+![image-20250423180423534](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250423180423534.png)
 
 ## Burn firmware
 
 At this time, you need to insert the prepared TF card into the TF card slot of the K230 visual module, and then click the [Start] button to burn the firmware.
 
-![image-20250424095037835](image-20250424095037835.png)
+![image-20250424095037835](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250424095037835.png)
 
 Wait for the burning progress bar to reach 100%, click the [Confirm] button, and the burning is complete.
 
-![image-20250424095229949](image-20250424095229949.png)
+![image-20250424095229949](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250424095229949.png)
 
 ## Detection effect
 
 At this time, re-plug the type-C cable of the K230 visual module and power it on again.
 
-![image-20250508121531163](image-20250508121531163.png)
+![image-20250508121531163](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250508121531163.png)
 
 Note: Since the content of the TF card needs to be initialized for the first connection after burning, the system may pop up the problem of not being able to recognize the USB device. Re-plug the type-C of the K230 visual module and reconnect it.
 
 After reconnecting, the OpenMV Cam USB COM Port device number appears in the port of the device manager, indicating that the device is running successfully.
 
-![image-20250424095952461](image-20250424095952461.png)
+![image-20250424095952461](https://www.yahboom.net/public/upload/upload-html/1747302095/image-20250424095952461.png)

@@ -18,11 +18,11 @@ You can see that the **line segment** in the picture will be marked on the scree
 
 Original image:
 
-![image-20250211100907523](1.png)
+![image-20250211100907523](https://www.yahboom.net/public/upload/upload-html/1747304807/1.png)
 
 K230 recognition result:
 
-![image-20250211101012471](2.png)
+![image-20250211101012471](https://www.yahboom.net/public/upload/upload-html/1747304807/2.png)
 
 ## Code explanation
 

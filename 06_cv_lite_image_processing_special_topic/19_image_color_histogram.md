@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/19.rgb888_calc_histogram
 
 In this section, we will use the `cv_lite` extension module to implement image histogram calculation for RGB888 format on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675108/1.png)
 
 ## Principle Explanation
 

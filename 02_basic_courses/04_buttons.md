@@ -10,7 +10,7 @@ buttonIntroductionQuick StartUsing FPIOA Function
 
 In this section, we will learn how to use the user buttons on the K230 module.
 
-![image-20250401143756809](1.png)
+![image-20250401143756809](https://www.yahboom.net/public/upload/upload-html/1747303709/1.png)
 
 ① This button is a custom button that we can use. This tutorial will introduce how to read the status of this button.
 
@@ -45,7 +45,7 @@ After running this code, we can try to press the custom button ① on K230 and o
 
 Be careful not to press the RST button. The button near the USB cable end is the RST reset button.
 
-![image-20250401145701651](2.png) 
+![image-20250401145701651](https://www.yahboom.net/public/upload/upload-html/1747303709/2.png) 
 
 ## Using FPIOA Function
 

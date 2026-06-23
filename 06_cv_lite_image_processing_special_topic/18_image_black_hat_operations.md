@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/16.rgb888_blackhat.py]
 
 In this section, we will use the `cv_lite` extension module to implement black-hat operations on RGB888 images on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675093/1.png)
 
 ## Principle Explanation
 

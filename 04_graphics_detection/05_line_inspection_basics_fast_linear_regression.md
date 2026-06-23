@@ -18,7 +18,7 @@ Aim the camera of K230 at the runway with [black line on white background]
 
 You can see that there will be a black line on the screen. We regard the direction of this line as the direction in which the car should move when patrolling.
 
-![image-20250211102823547](1.png)
+![image-20250211102823547](https://www.yahboom.net/public/upload/upload-html/1747304862/1.png)
 
  
 

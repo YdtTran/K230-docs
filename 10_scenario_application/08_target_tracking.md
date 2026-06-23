@@ -14,15 +14,15 @@ We run the sample program, aim the middle box at the object we want to identify 
 
 The first 6 to 7 seconds are the learning and waiting process, and the box is green at this time.
 
-![image-20250218165635967](1.png)
+![image-20250218165635967](https://www.yahboom.net/public/upload/upload-html/1747307897/1.png)
 
 During the waiting phase, the serial terminal will output a countdown:
 
-![image-20250218165734967](2.png)
+![image-20250218165734967](https://www.yahboom.net/public/upload/upload-html/1747307897/2.png)
 
 When the countdown ends, the box in the middle of the screen will turn red, indicating that K230 has entered the search and tracking stage.
 
-![tracking](tracking.gif)
+![tracking](https://www.yahboom.net/public/upload/upload-html/1747307897/tracking.gif)
 
  
 
@@ -147,4 +147,4 @@ Learning & Tracking Section
 
 #### flow chart
 
-![image-20250218165026867](flow.png)
+![image-20250218165026867](https://www.yahboom.net/public/upload/upload-html/1747307897/flow.png)

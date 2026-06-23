@@ -121,7 +121,7 @@ main()
 
 ### flow chart
 
-![image-20250220204330335](1.png)
+![image-20250220204330335](https://www.yahboom.net/public/upload/upload-html/1747308875/1.png)
 
  
 

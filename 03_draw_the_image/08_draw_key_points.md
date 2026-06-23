@@ -206,4 +206,4 @@ if __name__ == "__main__":
 
 We use the small box in the middle of the screen to check the surrounding environment, and we will find that some key points in the picture are marked
 
-![image-20250207220927564](1.png)
+![image-20250207220927564](https://www.yahboom.net/public/upload/upload-html/1747304675/1.png)

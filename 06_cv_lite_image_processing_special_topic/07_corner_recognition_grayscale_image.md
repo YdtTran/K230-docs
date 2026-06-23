@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/29.grayscale_find_corner
 
 In this section, we will use the `cv_lite` extension module to implement grayscale image corner detection on an embedded device. We will detect and display key corners in the image for feature extraction and object tracking.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674758/1.png)
 
 ## Principle Explanation
 

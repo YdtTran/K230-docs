@@ -26,11 +26,11 @@ If too many faces appear on the screen at the same time, it may cause the system
 
 【Original image】
 
-![image-20250210164848665](0.png)
+![image-20250210164848665](https://www.yahboom.net/public/upload/upload-html/1747306660/0.png)
 
 [K230 runs the 3D face network routine]
 
-![image-20250210164804090](1.png)
+![image-20250210164804090](https://www.yahboom.net/public/upload/upload-html/1747306660/1.png)
 
 ## Code Explanation
 

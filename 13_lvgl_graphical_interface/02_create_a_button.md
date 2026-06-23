@@ -50,7 +50,7 @@ lv.scr_act() returns the current screen component
 
 The effect is as shown below:
 
-![image-20250224145542274](1.png)
+![image-20250224145542274](https://www.yahboom.net/public/upload/upload-html/1747309442/1.png)
 
  
 
@@ -66,7 +66,7 @@ def create_button():
 
 ```
 
-![image-20250224145721963](2.png)
+![image-20250224145721963](https://www.yahboom.net/public/upload/upload-html/1747309442/2.png)
 
  
 
@@ -108,7 +108,7 @@ This part is also fixed on our K230. You don't need to study the principle in de
 
 After completing these steps, we click the Run button again and try to click the button on the screen. You can see that the click effect has appeared.
 
-![button_click (online-video-cutter.com)](button_click%20(online-video-cutter.com).gif)
+![button_click (online-video-cutter.com)](https://www.yahboom.net/public/upload/upload-html/1747309442/button_click%20(online-video-cutter.com).gif)
 
 Finally, we add a click event to the button so that we can trigger the code we want to trigger when the button is pressed.
 
@@ -130,7 +130,7 @@ def create_button():
 
 After adding, we rerun the code, then click the button on the screen and observe the serial terminal output:
 
-![image-20250224152707645](3.png)
+![image-20250224152707645](https://www.yahboom.net/public/upload/upload-html/1747309442/3.png)
 
  
 
@@ -142,4 +142,4 @@ Through the above steps, we can successfully create a lvgl program with a button
 
 For the complete code, please refer to the file [Source Code Summary / 12.Lvgl / 02.lvgl_button.py]
 
-![image-20250224153813421](flow.png)
+![image-20250224153813421](https://www.yahboom.net/public/upload/upload-html/1747309442/flow.png)

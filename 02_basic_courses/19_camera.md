@@ -22,13 +22,13 @@ The path of the pictures saved is in the [/data/snapshot/] directory
 
 Run the program, the camera will be awakened, and the screen will show the photo currently being taken.
 
-![image-20250401195011879](1.png)
+![image-20250401195011879](https://www.yahboom.net/public/upload/upload-html/1747304196/1.png)
 
 Press the Key key, K230 will take a picture of the current screen and save it in the [/sdcard/photo/(xxx)] directory. The saved folder (xxx) will be displayed on the screen each time the program is run.
 
 Taking the code in the above figure as an example, the photo taken this time is saved in the path [/sdcard/photo/28549/]
 
-![image-20250401195201375](2.png)
+![image-20250401195201375](https://www.yahboom.net/public/upload/upload-html/1747304196/2.png)
 
  
 

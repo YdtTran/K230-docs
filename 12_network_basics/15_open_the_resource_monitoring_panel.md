@@ -12,7 +12,7 @@ YAHBOOM K230 has a built-in visual resource monitoring panel, which needs to be 
 
 The effect is as follows
 
-![image-20250424203411210](1.png)
+![image-20250424203411210](https://www.yahboom.net/public/upload/upload-html/1747309123/1.png)
 
  
 

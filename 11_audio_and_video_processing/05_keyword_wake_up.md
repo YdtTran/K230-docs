@@ -18,11 +18,11 @@ Click the Run button in the lower left corner of CanMV IDE
 
 At this point, you can see the serial terminal continuously outputting Deactivated!
 
-![image-20250403160419449](1.png)
+![image-20250403160419449](https://www.yahboom.net/public/upload/upload-html/1747308428/1.png)
 
 When we shout [Xiaonan Xiaonan] to K230, the serial terminal will output ====Detected XiaonanXiaonan!====, indicating that the wake-up word is detected.
 
-![image-20250403160529835](2.png)
+![image-20250403160529835](https://www.yahboom.net/public/upload/upload-html/1747308428/2.png)
 
 This voice wake-up model is provided by Canaan Technology
 

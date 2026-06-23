@@ -12,7 +12,7 @@ In this section, we'll use the `cv_lite` extension module to implement color blo
 
 The measured distance is 32.5cm. The code performs integer division on the distance. To improve accuracy, consider changing the integer division (//) to decimal division (/).
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675299/1.png)
 
 ## Principle Explanation
 

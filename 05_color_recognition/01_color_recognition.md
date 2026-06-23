@@ -174,21 +174,21 @@ We click [Tools] -> [Machine Vision] -> [Threshold Editor] in the upper left cor
 
 Open a picture with the color we want to identify (as many interference colors as possible)
 
-![image-20250114142128532](1.png)
+![image-20250114142128532](https://www.yahboom.net/public/upload/upload-html/1747304978/1.png)
 
 Take the color of Yabo Smart’s Logo as an example
 
 Original image:
 
-![find_logo_color](find_logo_color.png)
+![find_logo_color](https://www.yahboom.net/public/upload/upload-html/1747304978/find_logo_color.png)
 
 Open with the Threshold Editor:
 
-![image-20250114143201400](2.png)
+![image-20250114143201400](https://www.yahboom.net/public/upload/upload-html/1747304978/2.png)
 
 Drag the slider below to adjust the binary image on the right so that only the part we need is white and the rest is black.
 
-![image-20250114143425492](3.png)
+![image-20250114143425492](https://www.yahboom.net/public/upload/upload-html/1747304978/3.png)
 
 At this time, the LAB threshold in the red circle is what we need
 
@@ -222,7 +222,7 @@ Now our program can start detecting and tracking the new color we added.
 
 Try to use the frame buffer when opening the threshold editor, or use the image file taken by the K230. This can greatly improve the recognition accuracy.
 
-![image-20250114144310766](4.png)
+![image-20250114144310766](https://www.yahboom.net/public/upload/upload-html/1747304978/4.png)
 2. 
 
 The recognition threshold can be relaxed a bit.

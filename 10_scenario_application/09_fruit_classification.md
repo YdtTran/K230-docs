@@ -16,15 +16,15 @@ Note: Training requires a GPU environment and has a certain degree of operationa
 
 Identify Apples
 
-![image-20250407182347568](1.png)
+![image-20250407182347568](https://www.yahboom.net/public/upload/upload-html/1747307917/1.png)
 
 Identify bananas
 
-![image-20250407182436788](2.png)
+![image-20250407182436788](https://www.yahboom.net/public/upload/upload-html/1747307917/2.png)
 
 Identify oranges
 
-![image-20250407182541251](3.png)
+![image-20250407182541251](https://www.yahboom.net/public/upload/upload-html/1747307917/3.png)
 
 ## Routine source code
 

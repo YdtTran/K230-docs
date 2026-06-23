@@ -18,7 +18,7 @@ We cannot directly perform file operations under /sdcard (very inconvenient), so
 
 Create a folder named `hello_world` in any folder on your computer.
 
-![image-20251211214355662](1.jpg)
+![image-20251211214355662](https://www.yahboom.net/public/upload/upload-html/1766060217/1.jpg)
 
  
 
@@ -26,9 +26,9 @@ Create a folder named `hello_world` in any folder on your computer.
 
 Find a PNG image (recommended 64x64 pixels), rename it to `icon.png`, and put it in the `hello_world` folder. If you don't have an image, you can temporarily copy the icon from the `camera` application.
 
-![image-20251211214608635](2.png)
+![image-20251211214608635](https://www.yahboom.net/public/upload/upload-html/1766060217/2.png)
 
-![image-20251211214719076](3.png)
+![image-20251211214719076](https://www.yahboom.net/public/upload/upload-html/1766060217/3.png)
 
 ### Step 3: Write Code (`app.py`)
 
@@ -94,7 +94,7 @@ class App(BaseApp):
 
 ```
 
-![image-20251211214825477](4.png)
+![image-20251211214825477](https://www.yahboom.net/public/upload/upload-html/1766060217/4.png)
 
 ### Step 4: Run Test
 
@@ -102,7 +102,7 @@ class App(BaseApp):
 
 Save the file and move the hello_world folder from your computer to the /sdcard/apps directory
 
-![image-20251211214921260](5.png)
+![image-20251211214921260](https://www.yahboom.net/public/upload/upload-html/1766060217/5.png)
 2. 
 
 Restart the development board (or press the reset button).
@@ -110,14 +110,14 @@ Restart the development board (or press the reset button).
 
 Wait for the system to start, swipe the desktop, you should see a new "Hello World" icon.
 
-![image-20251211215642916](6.png)
+![image-20251211215642916](https://www.yahboom.net/public/upload/upload-html/1766060217/6.png)
 4. 
 
 Click the icon to verify if the interface displays correctly
 
 If you see a screen like this, it means you wrote it successfully!
 
-![image-20251211215703730](7.png)
+![image-20251211215703730](https://www.yahboom.net/public/upload/upload-html/1766060217/7.png)
 
 ## 4. Common Troubleshooting
 

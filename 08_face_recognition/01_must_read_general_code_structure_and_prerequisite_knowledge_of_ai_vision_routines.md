@@ -10,7 +10,7 @@ AI vision processing code structureIntroductionImporting modulesCustom detection
 
 In this section, we will briefly introduce the general prerequisite knowledge and code structure of K230's subsequent AI-related routines
 
-![image-20250206101556697](1.png)
+![image-20250206101556697](https://www.yahboom.net/public/upload/upload-html/1747306508/1.png)
 
 Let's take the simplest face recognition Face_detection as an example
 
@@ -320,7 +320,7 @@ def draw_result(self, pl, dets):
 
 Not all AIBase methods need to be rewritten. We can divide tasks into four categories: single-model tasks, multi-model tasks, custom preprocessing tasks, and no preprocessing tasks. Different tasks require different code implementations, as shown in the following figure:
 
-![image-20250206102802517](2.png)
+![image-20250206102802517](https://www.yahboom.net/public/upload/upload-html/1747306508/2.png)
 
  
 

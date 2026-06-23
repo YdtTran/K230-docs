@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/16.rgb888_erode.py]
 
 In this section, we will use the `cv_lite` extension module to implement erosion of an RGB888 image on the K230.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675146/1.png)
 
 ## Principle Explanation
 

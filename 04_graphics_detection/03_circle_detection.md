@@ -16,11 +16,11 @@ Aim the camera of K230 at the line segment
 
 You can see that the **circle** in the picture will be marked on the screen (if there is no screen, look at the frame buffer)
 
-![image-20250114093432656](circle.png)
+![image-20250114093432656](https://www.yahboom.net/public/upload/upload-html/1747304845/circle.png)
 
 【K230 recognition results】
 
-![image-20250211102053335](3.png)
+![image-20250211102053335](https://www.yahboom.net/public/upload/upload-html/1747304845/3.png)
 
  
 

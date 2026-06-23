@@ -20,21 +20,21 @@ We use CanMV IDE to open the sample code and connect K230 to the computer with a
 
 In the system's file manager, open the directory corresponding to CanMV. We enter the directory CanMV/sdcard
 
-![image-20250509161033980](1.png)
+![image-20250509161033980](https://www.yahboom.net/public/upload/upload-html/1747304003/1.png)
 
 The CanMV/sdcard/ directory corresponds to /sdcard/ in the code.
 
 Click the Run button in the lower left corner of CanMV IDE and open the serial terminal below. You can see that Hello Yahboom is output here.
 
-![image-20250509161102337](2.png)
+![image-20250509161102337](https://www.yahboom.net/public/upload/upload-html/1747304003/2.png)
 
 After waiting for the program to finish running, we return to the file manager and can see that there is an additional yahboom.txt file.
 
-![image-20250509161133694](3.png)
+![image-20250509161133694](https://www.yahboom.net/public/upload/upload-html/1747304003/3.png)
 
 We double-click to open this file, and the content inside is "Hello Yahboom"
 
-![image-20250509161200191](4.png)
+![image-20250509161200191](https://www.yahboom.net/public/upload/upload-html/1747304003/4.png)
 
  
 

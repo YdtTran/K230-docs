@@ -15,17 +15,17 @@ The game execution process is as follows:
 1. Copy the sample code into CanMV IDE and click the Run button in the lower left corner. Please make sure that there is no "hand" in the camera at this time.
 2. Wait for "Total took xxxxx" to appear in the lower left corner to indicate the game has started.
 
-![image-20250217194623030](1.png)
+![image-20250217194623030](https://www.yahboom.net/public/upload/upload-html/1747307170/1.png)
 
 1. After the game starts, we make the shape of "rock", "scissors" or "paper" with our hands, and it will appear in the camera. At this time, the screen will show the punches of the program and the result of winning or losing. After getting the result, it means that this round is over, please remove your hands from the camera range.
 
-![image-20250217194928267](2.png)
+![image-20250217194928267](https://www.yahboom.net/public/upload/upload-html/1747307170/2.png)
 
  
 
 1. The game lasts for three rounds in total. After three rounds, the program will give the final result according to the best-of-three rule. [There is a small bug here. If the program does not give the final result immediately after the third round, you can let your hand enter the camera again and the program will give the final result.]
 
-![image-20250217195122700](3.png)
+![image-20250217195122700](https://www.yahboom.net/public/upload/upload-html/1747307170/3.png)
 
  
 
@@ -73,7 +73,7 @@ In each frame:
   - Generate computer punches based on game logic to determine the winner
   - Draw the game screen and display it
 
-![image-20250217204457340](flow.png)
+![image-20250217204457340](https://www.yahboom.net/public/upload/upload-html/1747307170/flow.png)
 
  
 

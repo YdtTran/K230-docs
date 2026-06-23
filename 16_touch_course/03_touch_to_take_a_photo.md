@@ -14,7 +14,7 @@ The code for this section is located in [\sdcard\apps\camera]
 
 The run-time results are shown in the image.
 
-![image-20251011183630300](1.png)
+![image-20251011183630300](https://www.yahboom.net/public/upload/upload-html/1760415791/1.png)
 
 Touch the white button on the right side of the screen to take a photo and save it to the data directory.
 

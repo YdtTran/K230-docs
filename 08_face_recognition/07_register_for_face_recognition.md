@@ -16,15 +16,15 @@ The registration code provided in the example code is used to register all image
 
 Here we take the [Camera] provided in the basic routine as an example to take pictures of different faces
 
-![image-20250210211623740](1.png)
+![image-20250210211623740](https://www.yahboom.net/public/upload/upload-html/1747306699/1.png)
 
-![image-20250210211644938](2.png)
+![image-20250210211644938](https://www.yahboom.net/public/upload/upload-html/1747306699/2.png)
 
-![image-20250210211723022](3.png)
+![image-20250210211723022](https://www.yahboom.net/public/upload/upload-html/1747306699/3.png)
 
 Then we find the address where the picture we just took is saved and change the picture file name to the person's name
 
-![image-20250210212015275](4.png)
+![image-20250210212015275](https://www.yahboom.net/public/upload/upload-html/1747306699/4.png)
 
  
 
@@ -36,7 +36,7 @@ In this example, the path is [/data/snapshot/1514737927/]
 
 After modification, we click the run button in the lower left corner and wait for the face to be registered.
 
-![image-20250210212410540](5.png)
+![image-20250210212410540](https://www.yahboom.net/public/upload/upload-html/1747306699/5.png)
 
 After waiting for the program to finish running, we can run the face recognition routine.
 
@@ -50,7 +50,7 @@ Click the button in the lower left corner to run
 
 Let’s take Peter as an example. The registered Peter in the picture will be marked with a green frame, while the unregistered face will be marked with a blue frame.
 
-![image-20250210214411833](6.png)
+![image-20250210214411833](https://www.yahboom.net/public/upload/upload-html/1747306699/6.png)
 
  
 

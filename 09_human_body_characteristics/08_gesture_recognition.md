@@ -22,11 +22,11 @@ The gesture recognition in this section uses a large number of photos of differe
 
 In this section, the gesture direction must be upward (as shown in the figure below)
 
-![image-20250214171835144](1.png)
+![image-20250214171835144](https://www.yahboom.net/public/upload/upload-html/1747307067/1.png)
 
  
 
-![image-20250214171859769](2.png)
+![image-20250214171859769](https://www.yahboom.net/public/upload/upload-html/1747307067/2.png)
 
  
 
@@ -125,4 +125,4 @@ Error Handling:
 
 #### flow chart
 
-![image-20250214175810674](flow.png)
+![image-20250214175810674](https://www.yahboom.net/public/upload/upload-html/1747307067/flow.png)

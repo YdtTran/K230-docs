@@ -29,27 +29,27 @@ We follow the steps in the previous section to connect to the public broker and 
 
 If you are coming from the previous section and MQTTX is not turned off, then no additional operations are required because the steps here are exactly the same as in the previous section.
 
-![image-20250221152900101](1.png)
+![image-20250221152900101](https://www.yahboom.net/public/upload/upload-html/1747308964/1.png)
 
-![image-20250221154015398](2.png)
+![image-20250221154015398](https://www.yahboom.net/public/upload/upload-html/1747308964/2.png)
 
  
 
 We can see that the content we sent appears on MQTTX side
 
-![image-20250221154110275](3.png)
+![image-20250221154110275](https://www.yahboom.net/public/upload/upload-html/1747308964/3.png)
 
 Similarly, the serial terminal of K230 also outputs this content
 
-![image-20250221154157702](4.png)
+![image-20250221154157702](https://www.yahboom.net/public/upload/upload-html/1747308964/4.png)
 
 You can see that the message output here starts with b. In this case, Chinese characters will appear garbled.
 
 So we can modify the msg in the routine code to msg.decode(), so that Chinese can be received normally.
 
-![image-20250221154545967](5.png)
+![image-20250221154545967](https://www.yahboom.net/public/upload/upload-html/1747308964/5.png)
 
-![image-20250221154608221](6.png)
+![image-20250221154608221](https://www.yahboom.net/public/upload/upload-html/1747308964/6.png)
 
  
 

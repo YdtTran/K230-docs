@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/5.grayscale_find_rectang
 
 In this section, we'll use the `cv_lite` extension module to implement rectangle detection in grayscale images on an embedded device, drawing rectangles and corner points.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674933/1.png)
 
 ## Principle Explanation
 

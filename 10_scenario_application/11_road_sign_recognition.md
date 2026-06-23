@@ -14,13 +14,13 @@ Note: Since the road sign images given during model training are fixed and the a
 
 Use CanMV IDE K230 to run the example source code, and you can see the camera image. When the camera is facing the road sign image, you can see the road sign framed and the road sign name displayed above the frame.
 
-![image-20250429105805321](image-20250429105805321.png)
+![image-20250429105805321](https://www.yahboom.net/public/upload/upload-html/1747307975/image-20250429105805321.png)
 
-![image-20250429105853703](image-20250429105853703.png)
+![image-20250429105853703](https://www.yahboom.net/public/upload/upload-html/1747307975/image-20250429105853703.png)
 
 At the same time, the canmv IDE terminal will also print the corresponding name.
 
-![image-20250429121828548](image-20250429121828548.png)
+![image-20250429121828548](https://www.yahboom.net/public/upload/upload-html/1747307975/image-20250429121828548.png)
 
 ## Routine source code
 
@@ -513,36 +513,36 @@ def detection():
 
 go_straight:
 
-![0](0.jpg)
+![0](https://www.yahboom.net/public/upload/upload-html/1747307975/0.jpg)
 
 turn_right:
 
-![1](1.jpg)
+![1](https://www.yahboom.net/public/upload/upload-html/1747307975/1.jpg)
 
 Honking:
 
-![2](2.jpg)
+![2](https://www.yahboom.net/public/upload/upload-html/1747307975/2.jpg)
 
 pedestrian_crossing:
 
-![3](3.jpg)
+![3](https://www.yahboom.net/public/upload/upload-html/1747307975/3.jpg)
 
 speed_limit:
 
-![4](4.jpg)
+![4](https://www.yahboom.net/public/upload/upload-html/1747307975/4.jpg)
 
 stop:
 
-![5](5.jpg)
+![5](https://www.yahboom.net/public/upload/upload-html/1747307975/5.jpg)
 
 children_crossing:
 
-![6](6.jpg)
+![6](https://www.yahboom.net/public/upload/upload-html/1747307975/6.jpg)
 
 Parking-A:
 
-![7](7.jpg)
+![7](https://www.yahboom.net/public/upload/upload-html/1747307975/7.jpg)
 
 parking-B:
 
-![8](8.jpg)
+![8](https://www.yahboom.net/public/upload/upload-html/1747307975/8.jpg)

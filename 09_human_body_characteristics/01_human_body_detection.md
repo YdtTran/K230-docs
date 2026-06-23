@@ -16,7 +16,7 @@ After connecting to the IDE, run the sample code in this section. Use K230 to ai
 
 For scenes with multiple overlapping human bodies, it can also be identified more accurately
 
-![image-20250211095530737](2.png)
+![image-20250211095530737](https://www.yahboom.net/public/upload/upload-html/1747306903/2.png)
 
 Serial port output function has been added
 
@@ -346,7 +346,7 @@ if __name__ == "__main__":
 
 #### flow chart
 
-![image-20250402140116969](flow1.png)
+![image-20250402140116969](https://www.yahboom.net/public/upload/upload-html/1747306903/flow1.png)
 
  
 

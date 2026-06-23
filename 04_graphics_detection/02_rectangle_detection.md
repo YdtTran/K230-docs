@@ -18,11 +18,11 @@ You can see that the **rectangle** in the picture will be marked on the screen (
 
 [Original image]
 
-![image-20250211101232004](1.png)
+![image-20250211101232004](https://www.yahboom.net/public/upload/upload-html/1747304825/1.png)
 
 【K230 Identification】
 
-![image-20250211101409392](2.png)
+![image-20250211101409392](https://www.yahboom.net/public/upload/upload-html/1747304825/2.png)
 
  
 

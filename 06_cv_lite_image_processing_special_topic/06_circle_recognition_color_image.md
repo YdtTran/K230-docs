@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/4.rgb888_find_circles.py
 
 In this section, we will use the `cv_lite` extension module to implement Hough circle detection in RGB888 format on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674799/1.png)
 
 ## Code Overview
 

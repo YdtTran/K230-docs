@@ -12,7 +12,7 @@ In this section, we'll use the `cv_lite` extension module to implement grayscale
 
 Original image on the left, processed image on the right
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675365/1.png)
 
 ## Principle Explanation
 

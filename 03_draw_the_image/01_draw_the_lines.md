@@ -172,4 +172,4 @@ if __name__ == "__main__":
 
 As you can see, we draw a string "Yahboom" in a straight line in the center of the screen
 
-![image-20250401200658337](1.png)
+![image-20250401200658337](https://www.yahboom.net/public/upload/upload-html/1747304540/1.png)

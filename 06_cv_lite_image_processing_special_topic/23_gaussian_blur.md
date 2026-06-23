@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/17.rgb888_gaussian_blur.
 
 In this section, we will use the `cv_lite` extension module to implement Gaussian filtering of RGB888 images on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675185/1.png)
 
 ## Principle Explanation
 

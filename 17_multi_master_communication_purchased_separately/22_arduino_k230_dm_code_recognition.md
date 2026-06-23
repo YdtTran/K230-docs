@@ -32,7 +32,7 @@ Windows computer, Arduino, USB to TTL module, K230 visual module (including TF c
 |  |  |
 |  |  |
 
-![image-20250430112815670](arduin.png)
+![image-20250430112815670](https://www.yahboom.net/public/upload/upload-html/1753871218/arduin.png)
 
 ### 3. Main code explanation
 
@@ -134,14 +134,14 @@ The above function is used to parse K230 data. Only when it complies with specif
 1. After connecting the cables, the k230 visual module runs offline
 After K230 is connected to Canmv IDE, open the corresponding program, click [Save open script to CanMV board (as main.py)] on the toolbar, and then restart K230.
 
-  ![image-20250429194108060](image-20250429194108060.png)
+  ![image-20250429194108060](https://www.yahboom.net/public/upload/upload-html/1753871218/image-20250429194108060.png)
 
 1. Arduino upload routine code (**Note that if the upload fails, disconnect the RXD connection on the Arduino connected to the k230 first, and then plug it back after the upload is successful**)
 
-![image-20250715184442745](image-20250715184442745.png) 
+![image-20250715184442745](https://www.yahboom.net/public/upload/upload-html/1753871218/image-20250715184442745.png) 
 
 1. The serial port assistant is set to the interface shown in the figure
-![image-2023060600004](2023060600004.png)
+![image-2023060600004](https://www.yahboom.net/public/upload/upload-html/1753871218/2023060600004.png)
 2. When the K230 camera screen recognizes the DM code, the serial port assistant will print out the information transmitted from K230 to Arduino.
 
 - x: is the horizontal coordinate of the upper left corner of the identified box
@@ -152,4 +152,4 @@ After K230 is connected to Canmv IDE, open the corresponding program, click [Sav
 - degrees: is the rotation angle of the DM code
 
 As shown in the figure below
-  ![image-20250430114226551](image-20250430114226551.png)
+  ![image-20250430114226551](https://www.yahboom.net/public/upload/upload-html/1753871218/image-20250430114226551.png)

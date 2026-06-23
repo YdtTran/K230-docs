@@ -12,11 +12,11 @@ Based on the color recognition we learned in the previous section, in this secti
 
 Here we use the [Generate Random Number of Coins] tool in the supporting materials to generate a random number of gold coin images
 
-![image-20250207173302809](2.png)
+![image-20250207173302809](https://www.yahboom.net/public/upload/upload-html/1747305063/2.png)
 
 Generate a picture like the following:
 
-![image-20250401213206900](1.png)
+![image-20250401213206900](https://www.yahboom.net/public/upload/upload-html/1747305063/1.png)
 
  
 

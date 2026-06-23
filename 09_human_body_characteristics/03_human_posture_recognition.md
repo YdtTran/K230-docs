@@ -20,7 +20,7 @@ States include straight, bent, left, and right.
 
 The judgment result will be displayed in the upper left corner of the screen
 
-![image-20250424145743714](1.png)
+![image-20250424145743714](https://www.yahboom.net/public/upload/upload-html/1747306954/1.png)
 
 ## Code Explanation
 

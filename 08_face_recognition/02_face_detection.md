@@ -14,7 +14,7 @@ The code in this section is in [Source code/07.Face/01.face_detection.py]
 
 After connecting to the IDE, run the example code in this section and aim the K230 at the face. You can see that the positions of all faces are framed in the middle of the screen.
 
-![image-20250210120145878](1.png)
+![image-20250210120145878](https://www.yahboom.net/public/upload/upload-html/1747306550/1.png)
 
  
 

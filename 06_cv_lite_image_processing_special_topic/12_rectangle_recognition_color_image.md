@@ -10,7 +10,7 @@ Run this section's example code [Source Code /06.cv_lite/8.rgb888_find_rectangle
 
 In this section, we will use the `cv_lite` extension module to implement rectangle detection in RGB888 format on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674902/1.png)
 
 ## Code Overview
 

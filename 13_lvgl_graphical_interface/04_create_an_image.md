@@ -37,7 +37,7 @@ def load_image():
 
 The running effect is as shown in the figure
 
-![image-20250403204830852](1.png)
+![image-20250403204830852](https://www.yahboom.net/public/upload/upload-html/1747309534/1.png)
 
  
 
@@ -49,4 +49,4 @@ Complete code: [Source code/12.Lvgl/04.lvgl_image.py]
 
 The flow chart is as follows
 
-![image-20250224172152254](flow.png)
+![image-20250224172152254](https://www.yahboom.net/public/upload/upload-html/1747309534/flow.png)

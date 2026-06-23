@@ -39,15 +39,15 @@ Then we open the network debugging assistant NetAssist.exe in the supporting too
 
 Enter the information in the area in the upper left corner and click Connect
 
-![image-20250212122035422](1.png)
+![image-20250212122035422](https://www.yahboom.net/public/upload/upload-html/1747308693/1.png)
 
 You can see that we received a message from the server running on K230
 
-![image-20250212122328255](2.png)
+![image-20250212122328255](https://www.yahboom.net/public/upload/upload-html/1747308693/2.png)
 
 We send a message in the input box, and the server can also receive the information we sent
 
-![image-20250212122611917](3.png)
+![image-20250212122611917](https://www.yahboom.net/public/upload/upload-html/1747308693/3.png)
 
 Due to encoding problems, the IDE output looks like garbled code. In fact, we only need to call the decoding function and change print(data) to print(data.decode()) to display the correct content. Here we leave it to you to try it yourself
 
@@ -235,7 +235,7 @@ We briefly describe the TCP protocol here
 - **Features** : connection-oriented, reliable transmission, flow control, congestion control
 - **Analogy** : Like a courier company's "insured package service" (ensuring complete delivery)
 
-![image-20250221092831365](5.png)
+![image-20250221092831365](https://www.yahboom.net/public/upload/upload-html/1747308693/5.png)
 
 (Diagram description: In the OSI model, TCP is located above the IP layer (network layer) and below the application layer)
 
@@ -253,7 +253,7 @@ We briefly describe the TCP protocol here
 
 ### 2.1 Three-way handshake to establish a connection
 
-![image-20250221093239266](6.png)
+![image-20250221093239266](https://www.yahboom.net/public/upload/upload-html/1747308693/6.png)
 
 (Diagram description: The client and server interact three times through SYN, SYN-ACK, and ACK)
 
@@ -265,7 +265,7 @@ Why not two handshakes?  To prevent invalid connection requests from suddenly ar
 
 ### 2.2 Four waves to terminate the connection
 
-![image-20250221093209142](7.png)
+![image-20250221093209142](https://www.yahboom.net/public/upload/upload-html/1747308693/7.png)
 
 (Diagram describing the four interactive steps of FIN and ACK)
 

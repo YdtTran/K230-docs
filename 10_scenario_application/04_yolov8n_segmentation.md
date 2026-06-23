@@ -12,7 +12,7 @@ In this section, we will learn how to use K230 to implement object segmentation 
 
 After connecting to the IDE, run the sample code in this section and use K230 to focus on the surroundings. You can see that based on the object detection, the detected object area will be rendered with different colors.
 
-![image-20250218093213208](1.png)
+![image-20250218093213208](https://www.yahboom.net/public/upload/upload-html/1747307745/1.png)
 
 ## Code Explanation
 
@@ -94,4 +94,4 @@ For the complete code, please refer to the file [Source Code/09.Scene/04.segment
 
 ### flow chart
 
-![image-20250218101343250](flow.png)
+![image-20250218101343250](https://www.yahboom.net/public/upload/upload-html/1747307745/flow.png)

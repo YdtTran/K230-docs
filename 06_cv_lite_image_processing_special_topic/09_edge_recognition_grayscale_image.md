@@ -10,7 +10,7 @@ Run the example code in this section [Source Code/06.cv_lite/7.grayscale_find_ed
 
 In this section, we will use the `cv_lite` extension module to implement grayscale image edge detection (Canny algorithm) on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674832/1.png)
 
 ## Code Overview
 

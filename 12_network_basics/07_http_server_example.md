@@ -36,7 +36,7 @@ The third line indicates that the HTTP server has been successfully started. We 
 
 You can see this page displayed in the browser, which means that the startup is successful.
 
-![image-20250219142518372](1.png)
+![image-20250219142518372](https://www.yahboom.net/public/upload/upload-html/1747308799/1.png)
 
 ### Key part code
 
@@ -128,7 +128,7 @@ The CONTENT part is the page code displayed in our browser, using the HTML langu
 
 ### flow chart
 
-![image-20250219143859888](flow.png)
+![image-20250219143859888](https://www.yahboom.net/public/upload/upload-html/1747308799/flow.png)
 
  
 

@@ -31,7 +31,7 @@ Windows computer  Jetson Orin development board  usb to ttl module  K230 visual 
 |  |  |
 |  |  |
 
-![image-20250430160104675](image-20250430160104675.png)
+![image-20250430160104675](https://www.yahboom.net/public/upload/upload-html/1747366703/image-20250430160104675.png)
 
 ### 3. Main code explanation
 
@@ -87,13 +87,13 @@ in
 
 1. After connecting the cables, the k230 visual module runs offline.  After K230 is connected to Canmv IDE, open the corresponding program, click [Save open script to CanMV board (as main.py)] on the toolbar, and then restart K230.
 
-![image-20250429194108060](image-20250429194108060.png)
+![image-20250429194108060](https://www.yahboom.net/public/upload/upload-html/1747366703/image-20250429194108060.png)
 
 When K230 is turned on, a green box will appear on the screen. Please aim the green box at the target to be tracked (using ultrasound as an example here), wait for a few seconds, and when the green box turns red, it means the target has been detected. At this time, move the target object and you can see that the red box will move with it.
 
-![image-20250430100319781](image-20250430100319781.png)
+![image-20250430100319781](https://www.yahboom.net/public/upload/upload-html/1747366703/image-20250430100319781.png)
 
-![image-20250430100346748](image-20250430100346748.png)
+![image-20250430100346748](https://www.yahboom.net/public/upload/upload-html/1747366703/image-20250430100346748.png)
 
 Note: Please do not move the object to be tracked quickly, otherwise it will not be tracked correctly.
 
@@ -123,4 +123,4 @@ h: is the length of the recognized frame
 
 As shown in the figure below
 
-![image-20250430121351893](image-20250430121351893.png)
+![image-20250430121351893](https://www.yahboom.net/public/upload/upload-html/1747366703/image-20250430121351893.png)

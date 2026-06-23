@@ -12,11 +12,11 @@ Based on the OCR detection in the previous section, let's implement a simple rec
 
 Run the example code in this section and point it to the image we prepared in the previous section:
 
-![image-20250217212343210](1.png)
+![image-20250217212343210](https://www.yahboom.net/public/upload/upload-html/1747307705/1.png)
 
 The results of K230 recognition are as follows (supports Chinese and English):
 
-![2](2.png)
+![2](https://www.yahboom.net/public/upload/upload-html/1747307705/2.png)
 
  
 
@@ -71,7 +71,7 @@ Exit Flow:
 
 The flow chart is as follows:
 
-![image-20250217213056729](flow.png)
+![image-20250217213056729](https://www.yahboom.net/public/upload/upload-html/1747307705/flow.png)
 
 ### Part of the code
 

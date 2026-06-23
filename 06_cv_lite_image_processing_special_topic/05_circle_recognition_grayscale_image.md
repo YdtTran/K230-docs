@@ -12,7 +12,7 @@ This section uses the `cv_lite` extension module to implement circle detection. 
 
 The average frame rate of this section's examples is around 15 frames per second. The specific frame rate depends on the actual detection scenario.
 
-![image-20250804204423567](1.png)
+![image-20250804204423567](https://www.yahboom.net/public/upload/upload-html/1755674722/1.png)
 
 ## Code Explanation
 

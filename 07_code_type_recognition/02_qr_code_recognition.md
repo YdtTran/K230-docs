@@ -18,13 +18,13 @@ First, we use the QR code generator to generate a QR code image (you can use the
 
 Enter English or digital content in the input box and click the Generate QR Code button to generate it.
 
-![image-20250124101607158](1.png)
+![image-20250124101607158](https://www.yahboom.net/public/upload/upload-html/1747305752/1.png)
 
 **The error correction level of the QR code** is divided into four levels: L, M, Q, and H, with error correction capabilities of 7%, 15%, 25%, and 30% respectively. When the QR code is partially damaged or blocked, a higher error correction level can ensure that the QR code can still be correctly identified and decoded. However, it should be noted that a higher error correction level will increase the density and complexity of the QR code, making the pattern denser. In actual applications, the appropriate error correction level is usually selected according to the usage environment.
 
 We enlarge the generated QR code
 
-![image-20250124101653765](2.png)
+![image-20250124101653765](https://www.yahboom.net/public/upload/upload-html/1747305752/2.png)
 
 We use CanMV IDE to open the sample code and connect K230 to the computer via USB.
 
@@ -32,13 +32,13 @@ Click the Run button in the lower left corner of CanMV IDE to run the example
 
 Point the camera at the QR code just generated, and you can see that the content of the barcode has been successfully recognized.
 
-![image-20250124102654486](3.png)
+![image-20250124102654486](https://www.yahboom.net/public/upload/upload-html/1747305752/3.png)
 
  
 
 We selected a high error correction level (30%) when generating the QR code, so we covered the QR code with some noise to see if it can be recognized normally.
 
-![image-20250124103004334](4.png)
+![image-20250124103004334](https://www.yahboom.net/public/upload/upload-html/1747305752/4.png)
 
 It can be seen that the QR code with a high error correction level (30%) has a relatively good anti-interference ability.
 

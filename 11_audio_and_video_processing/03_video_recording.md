@@ -10,7 +10,7 @@ Video RecordingIntroduction to the results of routine experimentsCode Explanatio
 
 In this section, we will learn how to use the camera on K230 to record video.
 
-![image-20250403141114194](2.png)
+![image-20250403141114194](https://www.yahboom.net/public/upload/upload-html/1747308373/2.png)
 
 The example code for this section is located in: [Source Code/10.Media/04.record_video.py]
 
@@ -26,7 +26,7 @@ Note 2: During recording, the K230 screen will not display anything.
 
 2025.2 Revision: The video player included in CanMV IDE can open the recorded video normally. It is recommended to use this
 
-![image-20250207171354622](1.png)
+![image-20250207171354622](https://www.yahboom.net/public/upload/upload-html/1747308373/1.png)
 
 ## Code Explanation
 

@@ -263,7 +263,7 @@ Cleaning process:
 
 These steps are essential for using lvgl on K230. Although the code looks a lot, basically no modification is required. Just copy it every time you write a new LVGL program.
 
-![image-20250224142841072](1.png)
+![image-20250224142841072](https://www.yahboom.net/public/upload/upload-html/1747309419/1.png)
 
 When we run this code example, we can see that a white background appears on the K230 screen and no error message appears, which means that lvgl initialization is successful.
 

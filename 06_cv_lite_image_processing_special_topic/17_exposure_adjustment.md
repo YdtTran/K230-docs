@@ -12,11 +12,11 @@ In this section, we will use the `cv_lite` extension module to implement exposur
 
 The exposure gain factor is set to 0.5
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675070/1.png)
 
 The exposure gain factor is set to 1.5
 
-![2](2.png)
+![2](https://www.yahboom.net/public/upload/upload-html/1755675070/2.png)
 
 ## Code Overview
 

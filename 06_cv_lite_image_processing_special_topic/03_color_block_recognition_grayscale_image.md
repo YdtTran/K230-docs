@@ -12,7 +12,7 @@ This section is based on color block recognition in grayscale images. The K230 w
 
 Observe the frame rate information output by the serial terminal. When the power supply is stable, the frame rate can be stable at over 80 frames.
 
-![image-20250804202044296](1.png)
+![image-20250804202044296](https://www.yahboom.net/public/upload/upload-html/1755674670/1.png)
 
 ## Code Explanation
 

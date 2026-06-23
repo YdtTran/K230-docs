@@ -10,7 +10,7 @@ RGB LightsIntroductionQuick StartSimulated breathing lightWS2812 Driverrepresent
 
 In this section, we will learn how to use code to control the RGB light on the YAHBOOM K230
 
-![image-20250401111815127](1.png)
+![image-20250401111815127](https://www.yahboom.net/public/upload/upload-html/1747303596/1.png)
 
 ## Quick Start
 
@@ -18,7 +18,7 @@ We open CanMV IDE and connect K230 to the computer.
 
 Press Ctrl + N to create a new code and delete all automatically generated code content
 
-![image-20250401112115029](2.png)
+![image-20250401112115029](https://www.yahboom.net/public/upload/upload-html/1747303596/2.png)
 
 Copy the following code and paste it into the IDE [Source Code/02.Basic/02.1_rgb.py]
 

@@ -47,7 +47,7 @@ fpioa.get_pin_func ( 0 )
 
 You can see that in the serial terminal, all the IO ports of the K230 chip and the functions that support multiplexing are output
 
-![image-20250401103324926](1.png)
+![image-20250401103324926](https://www.yahboom.net/public/upload/upload-html/1747303573/1.png)
 
  
 
@@ -59,7 +59,7 @@ In order to reduce the size of the module, our K230 module does not bring out al
 
 Two rows of pins next to the heat sink
 
-![image-20250401105100224](3.png)
+![image-20250401105100224](https://www.yahboom.net/public/upload/upload-html/1747303573/3.png)
 
  
 
@@ -92,7 +92,7 @@ Two rows of pins next to the heat sink
 
 Communication interface next to the USB port
 
-![image-20250401111053794](4.png)
+![image-20250401111053794](https://www.yahboom.net/public/upload/upload-html/1747303573/4.png)
 
 1: 5v
 

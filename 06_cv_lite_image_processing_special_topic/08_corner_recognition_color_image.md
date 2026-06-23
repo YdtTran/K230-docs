@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/30.rgb888_find_corners.p
 
 In this section, we'll use the `cv_lite` extension module to implement RGB888 image corner detection on an embedded device. We'll detect and display key corners in the image for feature extraction and object tracking.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755674844/1.png)
 
 ## Principle Explanation
 

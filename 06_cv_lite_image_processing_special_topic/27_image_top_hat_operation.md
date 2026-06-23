@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/22.rgb888_tophat.py]
 
 In this section, we'll use the `cv_lite` extension module to implement a top-hat transform on an RGB888 image on an embedded device. This will be used to highlight bright areas and remove uneven lighting.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675247/1.png)
 
 ## Principle Explanation
 

@@ -14,13 +14,13 @@ The example code is in [Source code/08.Body/09.dynamic_gesture.py]
 
 After connecting to the IDE, run the code and wait for the routine to run and load the model. (It takes about 8 to 10 seconds)
 
-![image-20250214211026973](0.png)
+![image-20250214211026973](https://www.yahboom.net/public/upload/upload-html/1747307147/0.png)
 
  
 
 After waiting for the routine to run and load the model, we put our hand in front of the camera and wait for the gesture icon to appear in the upper left corner. The appearance of this icon means that K230 is ready to recognize gestures, and we can perform the corresponding gesture waving behavior. The specific operation can be seen in the following animation:
 
-![1](1.gif)
+![1](https://www.yahboom.net/public/upload/upload-html/1747307147/1.gif)
 
  
 
@@ -265,4 +265,4 @@ dir is the direction, 0 is up, 1 is left, 2 is down, 3 is right, 4 is unchanged
 
 ### flow chart
 
-![image-20250214211753224](flow.png)
+![image-20250214211753224](https://www.yahboom.net/public/upload/upload-html/1747307147/flow.png)

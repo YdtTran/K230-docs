@@ -10,7 +10,7 @@ The example source code file for this section is named [1.show_touch_info.py]
 
 Connect to the IDE, run the code in the IDE, and click anywhere on the screen to see the touch point information appear.
 
-![image-20251011181707934](1.png)
+![image-20251011181707934](https://www.yahboom.net/public/upload/upload-html/1760415670/1.png)
 
 ## Code Explanation
 

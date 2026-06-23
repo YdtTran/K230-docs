@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/14.rgb888_close.py]
 
 In this section, we'll use the `cv_lite` extension module to implement image closing in the RGB888 format on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675126/1.png)
 
 ## Principle Explanation
 

@@ -34,26 +34,26 @@ You can use VLC Media Player or the rtsp_player we provide. Both software are in
 
 It is recommended to use rtsp_player first, which has simple functions and does not require complicated configuration. Just double-click to open it.
 
-![image-20250122111524819](15.png)
+![image-20250122111524819](https://www.yahboom.net/public/upload/upload-html/1747309054/15.png)
 2. 
 
 VLC Media Player is a versatile and powerful video player, but the settings are relatively cumbersome.
 
 We open VLC Media Player, click "Media" -> "Open Network Stream"
 
-![image-20250122112119731](16.png)
+![image-20250122112119731](https://www.yahboom.net/public/upload/upload-html/1747309054/16.png)
 
 Enter the URL address and change the delay to a lower value in "Show more options", about 10~100ms
 
-![image-20250122112322584](17.png)
+![image-20250122112322584](https://www.yahboom.net/public/upload/upload-html/1747309054/17.png)
 
 After the modification is completed, click the [Play] button in the lower right corner to remotely play the video transmitted by K230
 
-![image-20250122112517559](18.png)
+![image-20250122112517559](https://www.yahboom.net/public/upload/upload-html/1747309054/18.png)
 
 If the playback performance is poor, one way is to ensure the network speed and connection stability, and the other is to try to optimize it in "Preferences".
 
-![image-20250122114030653](19.png)
+![image-20250122114030653](https://www.yahboom.net/public/upload/upload-html/1747309054/19.png)
 
  
 
@@ -121,25 +121,25 @@ if __name__ == "__main__":
 
 After copying, we open face_landmark.py, find the exce_demo() method, and copy the part in the red box (all the code before try-while)
 
-![image-20250121182813138](1.png)
+![image-20250121182813138](https://www.yahboom.net/public/upload/upload-html/1747309054/1.png)
 
 Open the newly created [empty_rtsp_demo_face_landmark.py] file and find the [_do_rtsp_stream()] method
 
 Replace the content in the brown box below with the content in the red box we copied
 
-![image-20250121183246966](2.png)
+![image-20250121183246966](https://www.yahboom.net/public/upload/upload-html/1747309054/2.png)
 
 The replaced code is as follows
 
-![image-20250121183410475](3.png)
+![image-20250121183410475](https://www.yahboom.net/public/upload/upload-html/1747309054/3.png)
 
 Modify [display_size] to [1280,720], the modified result is as follows
 
-![image-20250121183608955](4.png)
+![image-20250121183608955](https://www.yahboom.net/public/upload/upload-html/1747309054/4.png)
 
 The following code also needs to be modified. We change [face_det] to [flm] (the commented-out part in the figure is before the modification) (refer to exce_demo() for modification. This modification is a preliminary modification and will be further modified later)
 
-![image-20250121183840840](5.png)
+![image-20250121183840840](https://www.yahboom.net/public/upload/upload-html/1747309054/5.png)
 
  
 
@@ -153,11 +153,11 @@ In this section, we use three classes to achieve AI visual effects, so we need t
 
 Because the code is too long, I used folding. We need to copy all the codes of these three classes.
 
-![image-20250121184314272](6.png)
+![image-20250121184314272](https://www.yahboom.net/public/upload/upload-html/1747309054/6.png)
 
 After copying, we paste it into the [empty_rtsp_demo_face_landmark.py] file
 
-![image-20250121184422460](7.png)
+![image-20250121184422460](https://www.yahboom.net/public/upload/upload-html/1747309054/7.png)
 
  
 
@@ -165,17 +165,17 @@ Let's go back to the [face_landmark.py] file and find the while loop in exce_dem
 
 Now we need to transplant this part into the RTSP streaming process. For easy viewing, I put this part of the screenshot on the side.
 
-![image-20250121185016078](8.png)
+![image-20250121185016078](https://www.yahboom.net/public/upload/upload-html/1747309054/8.png)
 
  
 
 Then we go back to [empty_rtsp_demo_face_landmark.py] and find the brown box part
 
-![image-20250121185223010](9.png)
+![image-20250121185223010](https://www.yahboom.net/public/upload/upload-html/1747309054/9.png)
 
 We modify the part in the brown box according to the writing method in the screenshot. The modified code is as follows:
 
-![image-20250121185645314](10.png)
+![image-20250121185645314](https://www.yahboom.net/public/upload/upload-html/1747309054/10.png)
 
 res = flm.run(np_img) changed to det_boxes,landmark_res = flm.run(np_img)
 
@@ -189,7 +189,7 @@ flm.draw_result(rtsp_show_img, res) changed to flm.draw_result(rtsp_show_img,det
 
 We find the [draw_result] method in the [FaceLandMark] class
 
-![image-20250121190102715](11.png)
+![image-20250121190102715](https://www.yahboom.net/public/upload/upload-html/1747309054/11.png)
 
 1. 
 
@@ -201,9 +201,9 @@ Delete the line pl.osd_img.clear()
 
 Find the line draw_img.draw_circle(), change it to img.draw_circle(), and delete line 285
 
-![image-20250121190847984](12.png)
+![image-20250121190847984](https://www.yahboom.net/public/upload/upload-html/1747309054/12.png)
 
-![image-20250121191019312](13.png)
+![image-20250121191019312](https://www.yahboom.net/public/upload/upload-html/1747309054/13.png)
 
 This requires a case-by-case discussion
 
@@ -222,7 +222,7 @@ If the routine draws a lot of lines (such as drawing key points of a face), in a
 
 This example draws a complex image, in which the original code of the eye part uses the draw_circle method. We can directly follow step 3 [find the line draw_img.draw_circle() and modify it to img.draw_circle()]. However, the aidemo.polylines() and aidemo.contours() methods are used at other key points. The parameters of these two methods must be the nparray converted from the rgb888 type of image, which does not match the image parameter img we passed in (img is in Yuv420sp format, and RTSP real-time image transmission can only use images in this format), so we need to add a drawing function ourselves. In this example, after obtaining the key points, we use the draw_circle method to manually draw these key points
 
-![image-20250122105102914](14.png)
+![image-20250122105102914](https://www.yahboom.net/public/upload/upload-html/1747309054/14.png)
 
  
 

@@ -14,7 +14,7 @@ We use CanMV IDE to open the sample code and connect K230 to the computer via US
 
 Click the Run button in the lower left corner of the CanMV IDE, and you can see the image captured by the camera displayed in the frame buffer in the upper right corner of the IDE.
 
-![image-20250211095846642](2.png)
+![image-20250211095846642](https://www.yahboom.net/public/upload/upload-html/1747304148/2.png)
 
  
 
@@ -153,7 +153,7 @@ The following content is excerpted from the CanMV Sensor API chapter
 
 The module of the CanMV K230 platform `sensor`is responsible for image acquisition and data processing. The module provides a set of high-level APIs that developers can use to easily obtain images of different formats and sizes without having to understand the specific implementation of the underlying hardware.
 
-![camera-block-diagram](3.png)
+![camera-block-diagram](https://www.yahboom.net/public/upload/upload-html/1747304148/3.png)
 
 Sensor 0, sensor 1, and sensor 2 represent three image input sensor devices; Camera Device 0, Camera Device 1, and Camera Device 2 correspond to the corresponding image processing units; output channel 0, output channel 1, and output channel 2 indicate that each image processing unit supports up to three output channels. Through software configuration, different sensor devices can be flexibly mapped to the corresponding image processing units.
 

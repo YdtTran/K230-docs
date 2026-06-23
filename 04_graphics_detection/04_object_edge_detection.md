@@ -18,7 +18,7 @@ Aim the camera of K230 at the surrounding objects
 
 You can see that the edges of the objects will be marked with white lines on the screen
 
-![image-20250211102442753](1.png)
+![image-20250211102442753](https://www.yahboom.net/public/upload/upload-html/1747304882/1.png)
 
 ## Code explanation
 

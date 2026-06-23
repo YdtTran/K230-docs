@@ -14,7 +14,7 @@ The Yabo Smart K230 has a built-in WIFI chip. In this section, we will try to co
 
 We change the "[WIFI SSID]" in the sample code to the name of the WIFI nearby (preferably in English), and "[WIFI PASSWORD]" to the password corresponding to the WIFI hotspot. After changing, click the run button in the lower left corner of CanMV IDE. Let's look at the output of the console. If the output is "Connect successfully", it means that WIFI can communicate normally.
 
-![image-20250512173317428](1.png)
+![image-20250512173317428](https://www.yahboom.net/public/upload/upload-html/1747308652/1.png)
 
 The complete output is as follows
 

@@ -31,7 +31,7 @@ Windows computer,  Jetson Orin development board,  usb to ttl module,  K230 visu
 |  |  |
 |  |  |
 
-![image-20250430160104675](image-20250430160104675.png)
+![image-20250430160104675](https://www.yahboom.net/public/upload/upload-html/1747365539/image-20250430160104675.png)
 
 ### 3. Main code explanation
 
@@ -94,7 +94,7 @@ in
 
  
 
-![image-20250429194108060](image-20250429194108060.png)
+![image-20250429194108060](https://www.yahboom.net/public/upload/upload-html/1747365539/image-20250429194108060.png)
 
 1. Transfer the program file to the system, open the terminal and enter the corresponding directory, then run the following command to start the program.
 
@@ -128,4 +128,4 @@ Degrees: is the rotation angle of the DM code
 
 As shown in the figure below
 
-![image-20250430114226551](image-20250430114226551.png)
+![image-20250430114226551](https://www.yahboom.net/public/upload/upload-html/1747365539/image-20250430114226551.png)

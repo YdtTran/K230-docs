@@ -8,7 +8,7 @@ In actual scenarios, we often need to save the code offline in K230, and hope th
 
 At this time, we only need to click 【Save open script to CanMV board (as main.py)】 in the toolbar in CanMV IDE
 
-![image-20250401095850006](9.png)
+![image-20250401095850006](https://www.yahboom.net/public/upload/upload-html/1747302612/9.png)
 
 Notes
 

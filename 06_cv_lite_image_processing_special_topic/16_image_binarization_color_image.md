@@ -10,7 +10,7 @@ Run the example code in this section [Source Code/06.cv_lite/14.rgb888_threshold
 
 In this section, we will use the `cv_lite` extension module to implement RGB888 format binarization on an embedded device.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675047/1.png)
 
 ## Code Overview
 

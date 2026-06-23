@@ -20,7 +20,7 @@ The periodic timer will continuously execute the callback function according to 
 
 We run the example code in this section and can see the following output in the console:
 
-![image-20250206172746242](1.png)
+![image-20250206172746242](https://www.yahboom.net/public/upload/upload-html/1747303815/1.png)
 
  
 

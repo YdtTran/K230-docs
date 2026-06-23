@@ -12,7 +12,7 @@ In this tutorial, we will learn how to use the I2C interface of K230 to communic
 
 We will use K230's IIC1 to light up a 128*32 OLED screen as an example of IIC usage.
 
-![image-20250401162400298](oled.png)
+![image-20250401162400298](https://www.yahboom.net/public/upload/upload-html/1747303744/oled.png)
 
 What is IIC (I2C, I²C)?
 
@@ -24,11 +24,11 @@ Like UART, which we learned in the previous section, IIC (I²C) is also a serial
 
 We wire as shown in the figure:
 
-![image-20250401162812664](1.png)
+![image-20250401162812664](https://www.yahboom.net/public/upload/upload-html/1747303744/1.png)
 
 The actual pictures are as follows:
 
-![image-20250401162303852](2.png)
+![image-20250401162303852](https://www.yahboom.net/public/upload/upload-html/1747303744/2.png)
 
  
 
@@ -103,13 +103,13 @@ oled.show()
 
 You can see the effect shown in the picture on the OLED screen.
 
-![image-20250401164242873](3.png)
+![image-20250401164242873](https://www.yahboom.net/public/upload/upload-html/1747303744/3.png)
 
  
 
 The flowchart of code execution is as follows:
 
-![flow](flow.jpeg)
+![flow](https://www.yahboom.net/public/upload/upload-html/1747303744/flow.jpeg)
 
  
 

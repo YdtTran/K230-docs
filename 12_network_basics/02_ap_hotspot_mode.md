@@ -12,7 +12,7 @@ AP Hotspot ModeRoutine explanationIntroductionComplete codeflow chartA brief int
 
 In the previous tutorial, we successfully connected to a nearby network through the WIFI chip. When we connect to an existing wireless network, we use the STA mode. In fact, this chip can also be used as an AP, that is, as a device that sends out WIFI signals and builds a local area network. In this section, we will try to use the K230 AP mode to start a WIFI hotspot.
 
-![image-20250218212631249](1.png)
+![image-20250218212631249](https://www.yahboom.net/public/upload/upload-html/1747308670/1.png)
 
  
 
@@ -22,7 +22,7 @@ After creation, we can use a mobile phone or computer to connect to this WIFI. A
 
 (The picture takes Windows 10 as an example. For other versions of the system, you can search for how to view network information by yourself)
 
-![image-20250218213007599](2.png)
+![image-20250218213007599](https://www.yahboom.net/public/upload/upload-html/1747308670/2.png)
 
  
 
@@ -89,7 +89,7 @@ CREATE_AP(AP_SSID, AP_KEY)
 
 ### flow chart
 
-![image-20250218213833076](3.png)
+![image-20250218213833076](https://www.yahboom.net/public/upload/upload-html/1747308670/3.png)
 
 Possible BUGs:
 

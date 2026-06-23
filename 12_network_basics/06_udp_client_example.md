@@ -19,7 +19,7 @@ sta.connect("WIFI SSID", "WIFI PASSWORD")  # 连接到指定WiFi / Connect to s
 
 Then we open the network debugging assistant and enter the IP address of the machine (check with ipconfig)
 
-![image-20250221103458817](1.png)
+![image-20250221103458817](https://www.yahboom.net/public/upload/upload-html/1747308770/1.png)
 
 Then we go back to the code and modify this part of the code (modify it to the IP address and port number filled in above)
 
@@ -298,7 +298,7 @@ If this script is the main program running, the function is called `start_udp_cl
 
 ### 2.1 Datagram Format
 
-![image-20250221104459436](2.png)
+![image-20250221104459436](https://www.yahboom.net/public/upload/upload-html/1747308770/2.png)
 
  
 

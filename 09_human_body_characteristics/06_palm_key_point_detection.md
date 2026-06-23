@@ -16,7 +16,7 @@ After connecting to the IDE, run the sample code in this section and use K230 to
 
 Since the model is relatively complex and the loading process takes a long time, there is only a picture in the first few seconds of running, but no recognition. This is normal.
 
-![image-20250214155508267](1.png)
+![image-20250214155508267](https://www.yahboom.net/public/upload/upload-html/1747307020/1.png)
 
 ## Code Explanation
 
@@ -104,4 +104,4 @@ if __name__ == "__main__":
 
 ### flow chart
 
-![image-20250214170926734](flow.png)
+![image-20250214170926734](https://www.yahboom.net/public/upload/upload-html/1747307020/flow.png)

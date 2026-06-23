@@ -10,7 +10,7 @@ Audio RecordingIntroduction to the results of routine experimentsCode Explanatio
 
 In this section, we use the microphone on the K230 to record the sound.
 
-![image-20250403105702644](1.png)
+![image-20250403105702644](https://www.yahboom.net/public/upload/upload-html/1747308208/1.png)
 
  
 

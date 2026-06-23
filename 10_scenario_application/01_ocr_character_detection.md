@@ -16,13 +16,13 @@ We open the code in this section (or copy the complete code below), click the ru
 
 【Original image】
 
-![image-20250217203423659](1.png)
+![image-20250217203423659](https://www.yahboom.net/public/upload/upload-html/1747307689/1.png)
 
  
 
 【Detection effect】
 
-![image-20250217203705370](2.png)
+![image-20250217203705370](https://www.yahboom.net/public/upload/upload-html/1747307689/2.png)
 
  
 

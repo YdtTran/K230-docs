@@ -14,11 +14,11 @@ The code in this section is in [Source code/07.Face/05.eye_gaze.py]
 
 After connecting to the IDE, run the example code in this section and aim the K230 at the face. You can see the direction the eyes are currently looking at will be marked on the screen.
 
-![image-20250210190301437](1.png)
+![image-20250210190301437](https://www.yahboom.net/public/upload/upload-html/1747306678/1.png)
 
  
 
-![image-20250210190515096](2.png)
+![image-20250210190515096](https://www.yahboom.net/public/upload/upload-html/1747306678/2.png)
 
 Serial port output function has been added
 

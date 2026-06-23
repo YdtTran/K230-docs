@@ -24,7 +24,7 @@ We open the example code and click the run button in the lower left corner. We c
 
 *Note: The image size cannot exceed the size limit of the display device. If using a matching screen, the resolution must be limited to 640x480
 
-![image-20250110175315213](1.png)
+![image-20250110175315213](https://www.yahboom.net/public/upload/upload-html/1747304089/1.png)
 
  
 
@@ -38,7 +38,7 @@ We open the example code and click the run button in the lower left corner. We c
 
 You can use the PNG bit depth converter provided in our document to convert the image bit depth to 24 or 32
 
-![image-20250110212054976](2.png)
+![image-20250110212054976](https://www.yahboom.net/public/upload/upload-html/1747304089/2.png)
 
  
 

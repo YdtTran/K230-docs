@@ -14,11 +14,11 @@ Note: Since the garbage images given during model training are fixed and the amo
 
 Use CanMV IDE K230 to run the example source code, you can see the camera screen, now the camera is facing the garbage picture, you can see the garbage is framed and the name of the garbage is displayed above the box.
 
-![image-20250429120458777](image-20250429120458777.png)
+![image-20250429120458777](https://www.yahboom.net/public/upload/upload-html/1747307943/image-20250429120458777.png)
 
 At the same time, the canmv IDE terminal will also print the corresponding name and type.
 
-![image-20250429120543405](image-20250429120543405.png)
+![image-20250429120543405](https://www.yahboom.net/public/upload/upload-html/1747307943/image-20250429120543405.png)
 
  
 
@@ -547,34 +547,34 @@ def detection():
 
 ## Trash pictures
 
-![0](0.jpg)
+![0](https://www.yahboom.net/public/upload/upload-html/1747307943/0.jpg)
 
-![1](1.jpg)
+![1](https://www.yahboom.net/public/upload/upload-html/1747307943/1.jpg)
 
-![2](2.jpg)
+![2](https://www.yahboom.net/public/upload/upload-html/1747307943/2.jpg)
 
-![3](3.jpg)
+![3](https://www.yahboom.net/public/upload/upload-html/1747307943/3.jpg)
 
-![4](4.jpg)
+![4](https://www.yahboom.net/public/upload/upload-html/1747307943/4.jpg)
 
-![5](5.jpg)
+![5](https://www.yahboom.net/public/upload/upload-html/1747307943/5.jpg)
 
-![6](6.jpg)
+![6](https://www.yahboom.net/public/upload/upload-html/1747307943/6.jpg)
 
-![7](7.jpg)
+![7](https://www.yahboom.net/public/upload/upload-html/1747307943/7.jpg)
 
-![8](8.jpg)
+![8](https://www.yahboom.net/public/upload/upload-html/1747307943/8.jpg)
 
-![9](9.jpg)
+![9](https://www.yahboom.net/public/upload/upload-html/1747307943/9.jpg)
 
-![10](10.jpg)
+![10](https://www.yahboom.net/public/upload/upload-html/1747307943/10.jpg)
 
-![11](11.jpg)
+![11](https://www.yahboom.net/public/upload/upload-html/1747307943/11.jpg)
 
-![12](12.jpg)
+![12](https://www.yahboom.net/public/upload/upload-html/1747307943/12.jpg)
 
-![13](13.jpg)
+![13](https://www.yahboom.net/public/upload/upload-html/1747307943/13.jpg)
 
-![14](14.jpg)
+![14](https://www.yahboom.net/public/upload/upload-html/1747307943/14.jpg)
 
-![15](15.jpg)
+![15](https://www.yahboom.net/public/upload/upload-html/1747307943/15.jpg)

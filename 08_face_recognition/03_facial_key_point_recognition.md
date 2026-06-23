@@ -14,7 +14,7 @@ The code in this section is in [Source code/07.Face/02.face_landmark.py]
 
 After connecting to the IDE, run the sample code in this section and aim the K230 at the face. You can see that all the key points of the face are depicted in the middle of the screen.
 
-![image-20250210120322729](1.png)
+![image-20250210120322729](https://www.yahboom.net/public/upload/upload-html/1747306578/1.png)
 
  
 

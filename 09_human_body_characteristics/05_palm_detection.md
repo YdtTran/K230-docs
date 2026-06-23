@@ -14,7 +14,7 @@ The example code is in [Source code/08.Body/05.hand_detection.py]
 
 The routine running effect is as follows: K230 will recognize all the hands that appear in the picture.
 
-![image-20250214145104563](2.png)
+![image-20250214145104563](https://www.yahboom.net/public/upload/upload-html/1747306999/2.png)
 
  
 
@@ -106,7 +106,7 @@ if __name__=="__main__":
 
 ### flow chart
 
-![image-20250214151024544](1.png)
+![image-20250214151024544](https://www.yahboom.net/public/upload/upload-html/1747306999/1.png)
 
 ## Brief description of palm detection algorithm
 

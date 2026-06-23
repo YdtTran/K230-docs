@@ -14,7 +14,7 @@ OpenRouter is a platform that aggregates a large number of mainstream AI languag
 
 [Models | OpenRouter](https://openrouter.ai/models)
 
-![image-20250424161820114](1.png)
+![image-20250424161820114](https://www.yahboom.net/public/upload/upload-html/1747309086/1.png)
 
 Due to the policies of various large model providers, some models on OpenRouter are inaccessible, which is normal.
 
@@ -24,38 +24,38 @@ In most cases, the free models are sufficient for testing or simple use.
 
 ## register
 
-![image-20250424162436160](2.png)
+![image-20250424162436160](https://www.yahboom.net/public/upload/upload-html/1747309086/2.png)
 
-![image-20250424162510853](3.png)
+![image-20250424162510853](https://www.yahboom.net/public/upload/upload-html/1747309086/3.png)
 
-![image-20250424162614157](4.png)
+![image-20250424162614157](https://www.yahboom.net/public/upload/upload-html/1747309086/4.png)
 
 You can register using github / Google / MetaMask wallet or other email addresses
 
 After clicking Continue, OpenRouter will send a verification link to your email.
 
-![image-20250424162942152](5.png)
+![image-20250424162942152](https://www.yahboom.net/public/upload/upload-html/1747309086/5.png)
 
 Click this blue button
 
-![image-20250424163045934](6.png)
+![image-20250424163045934](https://www.yahboom.net/public/upload/upload-html/1747309086/6.png)
 
  
 
 Or an email like this:
-![image-20250513150709710](image-20250513150709710.png)
+![image-20250513150709710](https://www.yahboom.net/public/upload/upload-html/1747309086/image-20250513150709710.png)
 
 Click on the blue "API dashboard"
 
-![image-20250513150922639](image-20250513150922639.png)
+![image-20250513150922639](https://www.yahboom.net/public/upload/upload-html/1747309086/image-20250513150922639.png)
 
 This pop-up interface indicates that the registration is successful.
 
 Next, let’s create an API key
 
-![image-20250424163511720](9.png)
+![image-20250424163511720](https://www.yahboom.net/public/upload/upload-html/1747309086/9.png)
 
-![image-20250424163542995](10.png)
+![image-20250424163542995](https://www.yahboom.net/public/upload/upload-html/1747309086/10.png)
 
 The first line is the API name, which can be filled in at will
 
@@ -65,7 +65,7 @@ The second line is the API consumption limit and can be left blank
 
 Click the button on the right to copy
 
-![image-20250424163807391](11.png)
+![image-20250424163807391](https://www.yahboom.net/public/upload/upload-html/1747309086/11.png)
 
 ## use
 
@@ -75,11 +75,11 @@ Let’s randomly choose a model to test
 
 Find the models page and enter free here
 
-![image-20250424164406466](12.png)
+![image-20250424164406466](https://www.yahboom.net/public/upload/upload-html/1747309086/12.png)
 
  
 
-![image-20250424185948787](13.png)
+![image-20250424185948787](https://www.yahboom.net/public/upload/upload-html/1747309086/13.png)
 
 Let’s take Google’s Gemini 2.0 model as an example
 
@@ -107,7 +107,7 @@ Then press Enter to access
 
 Let's scroll down and find this paragraph
 
-![image-20250424190102056](14.png)
+![image-20250424190102056](https://www.yahboom.net/public/upload/upload-html/1747309086/14.png)
 
 Copy this model name
 

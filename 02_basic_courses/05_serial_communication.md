@@ -16,7 +16,7 @@ Because in this tutorial, we will use a computer as a device to communicate with
 
 ## wiring
 
-![image-20250507122951026](line.png)
+![image-20250507122951026](https://www.yahboom.net/public/upload/upload-html/1747303671/line.png)
 
  
 
@@ -26,21 +26,21 @@ Because in this tutorial, we will use a computer as a device to communicate with
 
 Click 【Software Tools】 in the download area of the tutorial website to get the software 【UartAssist.exe】. After downloading, double-click to run it.
 
-![image-20250401152655175](2.png)
+![image-20250401152655175](https://www.yahboom.net/public/upload/upload-html/1747303671/2.png)
 
 After opening, we select the serial port number displayed on the computer by the USB to TTL module at ①
 
 Normally, this serial port number will end with CH340
 
-![image-20250401153238594](4.png)
+![image-20250401153238594](https://www.yahboom.net/public/upload/upload-html/1747303671/4.png)
 
  
 
 The quickest way to judge is to unplug the USB to TTL converter and plug it in again. **The serial port number that disappears after unplugging is the serial port of the USB to TTL converter.** 
 
-![image-20250401153015979](3.png)
+![image-20250401153015979](https://www.yahboom.net/public/upload/upload-html/1747303671/3.png)
 
-![image-20250401153402767](5.png)
+![image-20250401153402767](https://www.yahboom.net/public/upload/upload-html/1747303671/5.png)
 
 ### Run the code
 
@@ -96,7 +96,7 @@ Click the green run button in the lower left corner of CanMV IDE
 
 It can be observed that the serial port assistant received the message sent by K230
 
-![image-20250401153541783](6.png)
+![image-20250401153541783](https://www.yahboom.net/public/upload/upload-html/1747303671/6.png)
 
 Corresponding to the code
 
@@ -109,11 +109,11 @@ uart.send("Hello Yahboom\n")
 
 Then we try to use the serial port assistant to send information to K230
 
-![image-20250509143412029](8.png)
+![image-20250509143412029](https://www.yahboom.net/public/upload/upload-html/1747303671/8.png)
 
 The following output is observed in the serial terminal of CanMV IDE
 
-![image-20250401154217220](9.png)
+![image-20250401154217220](https://www.yahboom.net/public/upload/upload-html/1747303671/9.png)
 
 Here are a few common questions:
 
@@ -155,6 +155,6 @@ This module is essentially a "translator" that allows devices using different co
 
 By default, when you click the close button in the upper right corner, the serial port assistant will not be completely closed, but hidden in the tray icon in the lower right corner of the system.
 
-![image-20250401153908235](7.png)
+![image-20250401153908235](https://www.yahboom.net/public/upload/upload-html/1747303671/7.png)
 
 If you reopen a serial port assistant software when the serial port assistant is not completely closed and click [Open], an error message will be displayed saying that the serial port is occupied.

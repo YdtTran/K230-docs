@@ -12,11 +12,11 @@ In this section, we will learn how to use K230 to implement the license plate de
 
 【Original image】
 
-![image-20250218141005377](1.png)
+![image-20250218141005377](https://www.yahboom.net/public/upload/upload-html/1747307816/1.png)
 
 【Detection】
 
-![image-20250218141055542](2.png)
+![image-20250218141055542](https://www.yahboom.net/public/upload/upload-html/1747307816/2.png)
 
 The current routine has added serial port output
 
@@ -138,4 +138,4 @@ class LicenceDetectionApp(AIBase):
 
 #### flow chart
 
-![image-20250218141825877](flow.png)
+![image-20250218141825877](https://www.yahboom.net/public/upload/upload-html/1747307816/flow.png)

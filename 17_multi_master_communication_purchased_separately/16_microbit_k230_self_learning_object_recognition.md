@@ -32,11 +32,11 @@ Windows computer,  microbit,  USB to TTL module,  K230 vision module (including 
 |  |  |
 |  |  |
 
-![image-20250430112815670](Microbit.png)
+![image-20250430112815670](https://www.yahboom.net/public/upload/upload-html/1753875032/Microbit.png)
 
 ### 3. Main code explanation
 
-![image-20250730112759939](image-20250730112759939.png)
+![image-20250730112759939](https://www.yahboom.net/public/upload/upload-html/1753875032/image-20250730112759939.png)
 
 From the code, we can simply configure the serial port and call the relevant serial port and K230 building blocks to obtain data.
 
@@ -50,7 +50,7 @@ If you want to open the source code of this tutorial, please drag the microbit s
 1. After connecting the cables, the k230 visual module runs offline
 After K230 is connected to Canmv IDE, open the corresponding program, click [Save open script to CanMV board (as main.py)] on the toolbar, and then restart K230.
 
-  ![image-20250429194108060](image-20250429194108060.png)
+  ![image-20250429194108060](https://www.yahboom.net/public/upload/upload-html/1753875032/image-20250429194108060.png)
 
 When you power on the K230, a purple box will appear on the screen. Align the box with the objects you want to learn. There are two objects in total. Follow the on-screen instructions to learn both objects.
 
@@ -58,12 +58,12 @@ After learning both objects, if the corresponding object appears in the box, the
 
 1. Find the hex program of this tutorial, right-click the hex program, and upload the hex program of this tutorial to the microbit
 
-![image-20250716174052217](image.png) 
+![image-20250716174052217](https://www.yahboom.net/public/upload/upload-html/1753875032/image.png) 
 
 1. 
 
 The serial port assistant is set to the interface shown in the figure
-![image-2023060600004](2023060600004.png)
+![image-2023060600004](https://www.yahboom.net/public/upload/upload-html/1753875032/2023060600004.png)
 2. 
 
   1. When the K230 camera detects an object, the serial port assistant will print out the information transmitted from the K230 to the micro:bit.
@@ -76,4 +76,4 @@ category: The identified name
 score: The score
 
 As shown in the figure below
-![image-20250718191057275](image-20250718191057275.png)
+![image-20250718191057275](https://www.yahboom.net/public/upload/upload-html/1753875032/image-20250718191057275.png)

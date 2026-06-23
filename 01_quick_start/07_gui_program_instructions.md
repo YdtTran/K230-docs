@@ -34,9 +34,9 @@ After the initialization is successful, the RGB light on the top of K230 will tu
 
 The first time you use it, you need to configure the language information. After configuration, it will automatically restart. Just wait.
 
-![image-20250425142147344](1.png)
+![image-20250425142147344](https://www.yahboom.net/public/upload/upload-html/1747646647/1.png)
 
-![image-20250425142347611](2.png)
+![image-20250425142347611](https://www.yahboom.net/public/upload/upload-html/1747646647/2.png)
 
 Swipe left or right in the blank area (the area pointed by the arrow in the picture) to turn the page.
 
@@ -50,13 +50,13 @@ Version 1.0 provides five categories: [Wireless Network], [Sound], [My Device], 
 
 If you are not using a large model, it is recommended not to turn on the WIFI network.
 
-![image-20250425142654372](3.png)
+![image-20250425142654372](https://www.yahboom.net/public/upload/upload-html/1747646647/3.png)
 
 In this interface, we can choose to turn on/off the WIFI network
 
-![image-20250425142850360](4.png)
+![image-20250425142850360](https://www.yahboom.net/public/upload/upload-html/1747646647/4.png)
 
-![image-20250425143048407](5.png)
+![image-20250425143048407](https://www.yahboom.net/public/upload/upload-html/1747646647/5.png)
 
 ##### FAQ Description:
 
@@ -70,7 +70,7 @@ If you cannot connect to WIFI & the system freezes, please check:
 
 Drag the volume adjustment progress bar to change the system volume
 
-![image-20250425145438628](6.png)
+![image-20250425145438628](https://www.yahboom.net/public/upload/upload-html/1747646647/6.png)
 
 Note 1: The current version of the GUI program does not have any part that needs to play sound.
 
@@ -80,7 +80,7 @@ Note 2: In the current version, the slider has a high probability of automatical
 
 In this interface, you can see some basic information of the current K230, which will not be described in detail here.
 
-![image-20250425145755271](7.png)
+![image-20250425145755271](https://www.yahboom.net/public/upload/upload-html/1747646647/7.png)
 
 #### show
 
@@ -88,7 +88,7 @@ Adjust brightness [not supported in current version] and resolution
 
 Note: The resolution here refers to the capture resolution of camera channel 3, which generally does not need to be modified.
 
-![image-20250425145923370](8.png)
+![image-20250425145923370](https://www.yahboom.net/public/upload/upload-html/1747646647/8.png)
 
 #### language
 
@@ -96,7 +96,7 @@ The current version supports two options: Chinese (Chinese) and English (English
 
 The language switching function will take effect after restarting
 
-![image-20250425150115219](9.png)
+![image-20250425150115219](https://www.yahboom.net/public/upload/upload-html/1747646647/9.png)
 
  
 
@@ -104,7 +104,7 @@ The language switching function will take effect after restarting
 
 The usage methods of AI applications are very similar. Here we take AI face recognition application as an example
 
-![image-20250425150409566](10.png)
+![image-20250425150409566](https://www.yahboom.net/public/upload/upload-html/1747646647/10.png)
 
 ① is the list on the left, which lists all the sub-functions included in the AI Face App
 
@@ -122,7 +122,7 @@ The location where the photos are saved will be displayed on the start screen
 
 For example, in the case shown in the figure, after entering the photo taking process, the picture will be saved in the directory [/data/photo/8509972215/]
 
-![image-20250425160702981](12.png)
+![image-20250425160702981](https://www.yahboom.net/public/upload/upload-html/1747646647/12.png)
 
  
 
@@ -140,13 +140,13 @@ It should be noted that running graphics detection requires changing the camera 
 
 Therefore, **it is recommended that you use the separate routines in the tutorial to experiment with graphics detection related functions.**
 
-![image-20250425160933271](13.png)
+![image-20250425160933271](https://www.yahboom.net/public/upload/upload-html/1747646647/13.png)
 
 ### Hardware interface test
 
 Mainly includes [Buzzer Test], [PWM Test] and [RGB Tight Test]
 
-![image-20250425161147160](14.png)
+![image-20250425161147160](https://www.yahboom.net/public/upload/upload-html/1747646647/14.png)
 
 Note 1: If the RGB light does not change after dragging the slider bar, please try to turn off and then turn on the RGB light option again (① in the picture)
 
@@ -162,7 +162,7 @@ The use of advanced parts requires a certain foundation. If some configurations 
 
 Modify the /sdcard/resources/wallpaper.png file
 
-![image-20250425161749014](15.png)
+![image-20250425161749014](https://www.yahboom.net/public/upload/upload-html/1747646647/15.png)
 
 Note: Only 640x480 png images are supported and cannot have a transparent background
 
@@ -198,7 +198,7 @@ The files in the k230 cannot be opened and modified directly, so you must first 
 
 The default content is as follows:
 
-![image-20250425163259986](16.png)
+![image-20250425163259986](https://www.yahboom.net/public/upload/upload-html/1747646647/16.png)
 
 Format the file
 
@@ -210,7 +210,7 @@ No further description is given here
 
 Then find AI --> LLM
 
-![image-20250425163753457](17.png)
+![image-20250425163753457](https://www.yahboom.net/public/upload/upload-html/1747646647/17.png)
 
 **Change the value of api_key** to **the "key-123465789"** you just obtained.
 
@@ -231,7 +231,7 @@ Please note that the API_KEY in the example cannot be used directly. Please appl
 
 ```
 
-![image-20250425165040360](18.png)
+![image-20250425165040360](https://www.yahboom.net/public/upload/upload-html/1747646647/18.png)
 
 ### Customize APP name/icon/function
 
@@ -243,7 +243,7 @@ If you have a certain coding foundation, you can try to deeply customize or opti
 
 This part of the custom content has too many functions, and we are temporarily unable to provide in-depth and detailed technical support services
 
-![image-20250425170549243](19.png)
+![image-20250425170549243](https://www.yahboom.net/public/upload/upload-html/1747646647/19.png)
 
 ## FAQ
 

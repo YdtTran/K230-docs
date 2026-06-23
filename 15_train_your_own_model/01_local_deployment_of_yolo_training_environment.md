@@ -20,7 +20,7 @@ CUDA version: 12.4
 
 The system has pre-installed Miniconda3_3.10
 
-![image-20250407170307028](1.png)
+![image-20250407170307028](https://www.yahboom.net/public/upload/upload-html/1747309803/1.png)
 
 ## Download and install Yolo v5 environment dependencies
 
@@ -31,7 +31,7 @@ git clone https://github.com/ultralytics/yolov5.git
 
 ```
 
-![image-20250407170524619](2.png)
+![image-20250407170524619](https://www.yahboom.net/public/upload/upload-html/1747309803/2.png)
 
 implement
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 This part of the file contains a lot of content, please be patient
 
-![image-20250407172727019](3.png)
+![image-20250407172727019](https://www.yahboom.net/public/upload/upload-html/1747309803/3.png)
 
 ## Preparing training data
 
@@ -58,14 +58,14 @@ wget https://kendryte-download.canaan-creative.com/developer/k230/yolo_files/dat
 
 ```
 
-![image-20250407173125149](4.png)
+![image-20250407173125149](https://www.yahboom.net/public/upload/upload-html/1747309803/4.png)
 
 ```python
 unzip datasets.zip
 
 ```
 
-![image-20250407173145274](5.png)
+![image-20250407173145274](https://www.yahboom.net/public/upload/upload-html/1747309803/5.png)
 
 ## Use YOLOv5 to train a fruit classification model
 
@@ -82,11 +82,11 @@ python classify/train.py --model yolov5n-cls.pt --data datasets/fruits_cls --epo
 
 If an interface similar to the one below appears, it means that training has started.
 
-![image-20250407173506203](6.png)
+![image-20250407173506203](https://www.yahboom.net/public/upload/upload-html/1747309803/6.png)
 
 After the training is successfully completed, the output is as follows
 
-![image-20250407174312591](7.png)
+![image-20250407174312591](https://www.yahboom.net/public/upload/upload-html/1747309803/7.png)
 
 ## Convert the trained model to a kmodel that can be recognized by K230
 
@@ -109,7 +109,7 @@ pip install onnxsim
 
 ```
 
-![image-20250407174846393](8.png)
+![image-20250407174846393](https://www.yahboom.net/public/upload/upload-html/1747309803/8.png)
 
 Download the script tool and `test_yolov5.zip`unzip the model conversion script tool to `yolov5`the directory;
 
@@ -119,7 +119,7 @@ unzip test_yolov5.zip
 
 ```
 
-![image-20250407174945839](9.png)
+![image-20250407174945839](https://www.yahboom.net/public/upload/upload-html/1747309803/9.png)
 
 Start model format conversion
 
@@ -141,7 +141,7 @@ cd test_yolov5/classify
 
 ```
 
-![image-20250407175320091](10.png)
+![image-20250407175320091](https://www.yahboom.net/public/upload/upload-html/1747309803/10.png)
 
 Execute model conversion instructions
 
@@ -163,7 +163,7 @@ strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 
 If there is one in the output, it means that the file is not really missing, but the version of libstdc++ in the virtual environment is lower than the version of the libstdc++ library in the system.
 
-![image-20250407175635681](11.png)
+![image-20250407175635681](https://www.yahboom.net/public/upload/upload-html/1747309803/11.png)
 
 At this point we only need to execute the following command
 
@@ -183,19 +183,19 @@ ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 libstdc++.so.6
 
 After the conversion command is completed, the output is as follows
 
-![image-20250407181403685](12.png)
+![image-20250407181403685](https://www.yahboom.net/public/upload/upload-html/1747309803/12.png)
 
 WARNING can be ignored here
 
 The generated model is in the directory ~/yolov5/runs/train-cls/exp/weights
 
-![image-20250407182035920](13.png)
+![image-20250407182035920](https://www.yahboom.net/public/upload/upload-html/1747309803/13.png)
 
 The name is best.kmodel
 
 We copy this best.kmodel to the data directory of our K230
 
-![image-20250407182129333](14.png)
+![image-20250407182129333](https://www.yahboom.net/public/upload/upload-html/1747309803/14.png)
 
 Then open CanMV IDE, copy the following code and click Run
 
@@ -245,15 +245,15 @@ Let's test the effect
 
 Identify Apples
 
-![image-20250407182347568](15.png)
+![image-20250407182347568](https://www.yahboom.net/public/upload/upload-html/1747309803/15.png)
 
 Identify bananas
 
-![image-20250407182436788](16.png)
+![image-20250407182436788](https://www.yahboom.net/public/upload/upload-html/1747309803/16.png)
 
 Identify oranges
 
-![image-20250407182541251](17.png)
+![image-20250407182541251](https://www.yahboom.net/public/upload/upload-html/1747309803/17.png)
 
 You can see that this routine can run successfully.
 

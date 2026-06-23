@@ -122,4 +122,4 @@ if __name__ == "__main__":
 
 As you can see, we use crosshairs of different sizes and tones to construct a radial drawing in the center of the screen.
 
-![image-20250207212828432](1.png)
+![image-20250207212828432](https://www.yahboom.net/public/upload/upload-html/1747304635/1.png)

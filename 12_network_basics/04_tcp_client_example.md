@@ -30,19 +30,19 @@ Then we open the network debugging assistant NetAssist.exe in the supporting too
 
 Enter the information in the area on the upper left corner and click Open
 
-![image-20250220214525442](1.png)
+![image-20250220214525442](https://www.yahboom.net/public/upload/upload-html/1747308725/1.png)
 
 Note that the local host address here can be viewed by executing the ipconfig command in the command prompt. The operation methods for each system version are different. You can search for how to open the command prompt for your own computer version. Here we take Windows 11 as an example
 
 After opening it, if you are connected via a network cable, find [Ethernet Adapter Ethernet] and find the [IPv4 Address] in this column. This is the local host address we need to fill in.
 
-![image-20250220214903815](2.png)
+![image-20250220214903815](https://www.yahboom.net/public/upload/upload-html/1747308725/2.png)
 
 Similarly, if you are connected to WIFI, find the [IPv4 Address] in the [Wireless LAN Adapter WLAN] section.
 
 Then we go back to the network debugging assistant and make sure the current server is turned on:
 
-![image-20250220215020336](3.png)
+![image-20250220215020336](https://www.yahboom.net/public/upload/upload-html/1747308725/3.png)
 
 Then we go back to our example in CanMV IDE, find the server details, and change server_ip to the IP of the server we just started
 
@@ -74,7 +74,7 @@ Connection closed / 连接已关闭
 
 At the same time, the network debugging assistant also displays relevant content
 
-![image-20250220215241130](4.png)
+![image-20250220215241130](https://www.yahboom.net/public/upload/upload-html/1747308725/4.png)
 
 ### Code Explanation
 
@@ -185,4 +185,4 @@ Things to note when using the code:
 
 ### flow chart
 
-![image-20250220220042904](flow.png)
+![image-20250220220042904](https://www.yahboom.net/public/upload/upload-html/1747308725/flow.png)

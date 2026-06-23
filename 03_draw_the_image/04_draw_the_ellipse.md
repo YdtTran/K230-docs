@@ -110,4 +110,4 @@ if __name__ == "__main__":
 
 ## Routine running effect
 
-![image-20250428142953258](1.png)
+![image-20250428142953258](https://www.yahboom.net/public/upload/upload-html/1747304598/1.png)

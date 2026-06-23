@@ -165,7 +165,7 @@ Exception handling:
 
 The detailed flow chart is as follows:
 
-   ![image-20250510120846292](image-20250510120846292.png)                                               ![image-20250510121143267](image-20250510121143267.png)键盘中断
+   ![image-20250510120846292](https://www.yahboom.net/public/upload/upload-html/1747305082/image-20250510120846292.png)                                               ![image-20250510121143267](https://www.yahboom.net/public/upload/upload-html/1747305082/image-20250510121143267.png)键盘中断
 KeyboardInterrupt其他异常
 Other Exception传感器已初始化
 Sensor initialized传感器未初始化

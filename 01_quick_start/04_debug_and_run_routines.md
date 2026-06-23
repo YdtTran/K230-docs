@@ -16,7 +16,7 @@ Before starting this tutorial, please make sure that you have completed the inst
 
 Double-click to run the installed CanMV IDE
 
-![1](1.png)
+![1](https://www.yahboom.net/public/upload/upload-html/1747302481/1.png)
 
 Click area ② to open the serial terminal
 
@@ -26,13 +26,13 @@ The purpose of the serial terminal is to facilitate us to view the debugging out
 
 After the connection is successful, the icon in the lower left corner of CanMV IDE will change
 
-![image-20250401093544787](5.png)
+![image-20250401093544787](https://www.yahboom.net/public/upload/upload-html/1747302481/5.png)
 
 If you do not turn on 【Auto Reconnect to CanMV】, you need to manually click the button above and wait for CanMV IDE to establish a connection with K230
 
 If automatic connection is turned on, wait for a few seconds, CanMV IDE can successfully connect to K230, and the lower left corner will become as shown in the figure
 
-![image-20250401094542962](6.png)
+![image-20250401094542962](https://www.yahboom.net/public/upload/upload-html/1747302481/6.png)
 
 ### 3. Run the example code
 
@@ -44,15 +44,15 @@ We double-click to open the file
 
 - It is strongly recommended to turn on this option during development. The methods for turning it on are different for different operating systems. Here we take win10 as an example
 
-![image-20250508145653108](image-20250508145653108.png)
+![image-20250508145653108](https://www.yahboom.net/public/upload/upload-html/1747302481/image-20250508145653108.png)
 
  
 
 1. If you have not set the default open file with the py suffix, you can choose to use the system's built-in Notepad software to open the code
 
-![image-20250401092641245](2.png)
+![image-20250401092641245](https://www.yahboom.net/public/upload/upload-html/1747302481/2.png)
 
-![3](3.png)
+![3](https://www.yahboom.net/public/upload/upload-html/1747302481/3.png)
 
 We select all the code, press Ctrl + C on the keyboard, and copy all the code
 
@@ -60,15 +60,15 @@ Then return to CanMV IDE, **clear the default content**, press Ctrl + V, and pas
 
 CanMV A new file in the IDE will have some default code content. Please select and delete all the default code before pasting.
 
-![image-20250401093453328](4.png)
+![image-20250401093453328](https://www.yahboom.net/public/upload/upload-html/1747302481/4.png)
 
 After pasting successfully, click the **green run button** in the lower left corner, and K230 will execute the face detection function.
 
-![image-20250401095227420](7.png)
+![image-20250401095227420](https://www.yahboom.net/public/upload/upload-html/1747302481/7.png)
 
 Click the red button in the lower left corner to exit the face detection function.
 
-![image-20250401095323557](8.png)
+![image-20250401095323557](https://www.yahboom.net/public/upload/upload-html/1747302481/8.png)
 
 So far, we have successfully used K230 **online** to run a program.
 
@@ -80,7 +80,7 @@ In actual scenarios, we often need to save the code offline in K230, and hope th
 
 At this time, we only need to click 【Save open script to CanMV board (as main.py)】 in the toolbar in CanMV IDE
 
-![image-20250401095850006](9.png)
+![image-20250401095850006](https://www.yahboom.net/public/upload/upload-html/1747302481/9.png)
 
 Notes
 

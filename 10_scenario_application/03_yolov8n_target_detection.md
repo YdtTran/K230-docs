@@ -47,7 +47,7 @@ book, clock, scissors, teddy bear, toothbrush
 
 After connecting to the IDE and running the demo code, let's try it out with a few simple scenes.
 
-![image-20250217215707251](1.png)
+![image-20250217215707251](https://www.yahboom.net/public/upload/upload-html/1781163990/1.png)
 
 As you can see, the K230 correctly identifies these objects and provides confidence scores.
 
@@ -263,7 +263,7 @@ class ObjectDetectionApp(AIBase):
 
 The flowchart is as follows:
 
-![image-20250217221855059](flow.png)
+![image-20250217221855059](https://www.yahboom.net/public/upload/upload-html/1781163990/flow.png)
 
 ### Algorithm Overview
 

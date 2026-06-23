@@ -10,7 +10,7 @@ Run this section's example code [Source Code/06.cv_lite/27.rgb888_pnp_distance_f
 
 In this section, we will use the `cv_lite` extension module to implement image contour detection on an embedded device and use the PnP algorithm to estimate the distance of the detected contours.
 
-![image-20250804210154029](1.png)
+![image-20250804210154029](https://www.yahboom.net/public/upload/upload-html/1755675313/1.png)
 
 ## Principle Explanation
 

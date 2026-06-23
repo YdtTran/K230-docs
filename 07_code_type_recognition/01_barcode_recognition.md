@@ -14,11 +14,11 @@ In this section, we will use K230 to recognize barcodes. First, we use the barco
 
 Enter English or digital content in the input box and click the Generate Barcode button to generate
 
-![image-20250122154902708](1.png)
+![image-20250122154902708](https://www.yahboom.net/public/upload/upload-html/1747305669/1.png)
 
 We zoom in on the generated barcode
 
-![image-20250122155219591](2.png)
+![image-20250122155219591](https://www.yahboom.net/public/upload/upload-html/1747305669/2.png)
 
  
 
@@ -30,11 +30,11 @@ Click the Run button in the lower left corner of CanMV IDE to run the example
 
 Point the camera at the QR code just generated, and you can see that the content of the barcode has been successfully recognized.
 
-![image-20250122155637490](3.png)
+![image-20250122155637490](https://www.yahboom.net/public/upload/upload-html/1747305669/3.png)
 
 At the same time, the lower left corner of CanMV IDE will also output our recognition results
 
-![image-20250122155738720](4.png)
+![image-20250122155738720](https://www.yahboom.net/public/upload/upload-html/1747305669/4.png)
 
  
 

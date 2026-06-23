@@ -45,7 +45,7 @@ DM code (Data Matrix code) is a two-dimensional barcode with the following chara
 
 You can use the DM code generation tool provided in our materials, or you can search for an online DM generator online.
 
-![image-20250206171646414](3.png)
+![image-20250206171646414](https://www.yahboom.net/public/upload/upload-html/1747305787/3.png)
 
  
 
@@ -55,7 +55,7 @@ After connecting to the IDE, click the Run button in the lower left corner, and 
 
 The [3.00] in the right bracket refers to the rotation offset angle of the DM code.
 
-![image-20250206171343608](2.png)
+![image-20250206171343608](https://www.yahboom.net/public/upload/upload-html/1747305787/2.png)
 
 It should be noted that the recognition success rate of DM is lower than that of QR Code. If it cannot be recognized, you can try rotating the DM code or the camera.
 
