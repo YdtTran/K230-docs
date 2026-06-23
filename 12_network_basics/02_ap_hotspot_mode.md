@@ -1,0 +1,105 @@
+# 2. AP hotspot mode
+
+# AP Hotspot Mode
+
+AP Hotspot ModeRoutine explanationIntroductionComplete codeflow chartA brief introduction to WLAN related APIs
+
+ 
+
+## Routine explanation
+
+### Introduction
+
+In the previous tutorial, we successfully connected to a nearby network through the WIFI chip. When we connect to an existing wireless network, we use the STA mode. In fact, this chip can also be used as an AP, that is, as a device that sends out WIFI signals and builds a local area network. In this section, we will try to use the K230 AP mode to start a WIFI hotspot.
+
+![image-20250218212631249](1.png)
+
+ 
+
+The AP activation status is False here, which does not affect subsequent operations and can be ignored.
+
+After creation, we can use a mobile phone or computer to connect to this WIFI. After the connection is successful, we can see the following WIFI configuration details
+
+(The picture takes Windows 10 as an example. For other versions of the system, you can search for how to view network information by yourself)
+
+![image-20250218213007599](2.png)
+
+ 
+
+### Complete code
+
+The complete code file is in [Source Code/11.Network/02.hotspot/ap.py]
+
+```python
+# 导入必要的模块 / Import required modules
+import network  # 网络相关功能模块 / Network functionality module
+import time     # 时间相关功能模块 / Time functionality module
+​
+# 定义WiFi热点的名称和密码 / Define WiFi hotspot name and password
+AP_SSID = 'YAHBOOM-K230'  # 热点名称 / Hotspot name
+AP_KEY = '12345678'       # 至少8位密码 / Password (minimum 8 characters)
+​
+def CREATE_AP(AP_SSID, AP_KEY):
+    """
+    创建并配置WiFi热点 / Create and configure WiFi hotspot
+    
+    参数 / Parameters:
+    AP_SSID: 热点名称 / Hotspot name
+    AP_KEY: 热点密码 / Hotspot password
+    """
+    
+    # 初始化AP模式,创建WLAN对象 / Initialize AP mode, create WLAN object
+    ap = network.WLAN(network.AP_IF)
+​
+    # 激活AP模式 / Activate AP mode
+    if not ap.active():
+        ap.active(True)
+    print("AP模式激活状态 / AP mode activation status:", ap.active())
+​
+    # 配置热点参数(SSID和密码) / Configure hotspot parameters (SSID and password)
+    ap.config(ssid=AP_SSID, key=AP_KEY)
+    print("\n热点已创建 / Hotspot created:")
+    print(f"SSID: {AP_SSID}")
+    print(f"KEY: {AP_KEY}")
+​
+    # 等待热点启动（暂定3秒）/ Wait for hotspot to start (3 seconds)
+    time.sleep(3)
+​
+    # 获取并打印IP信息 / Get and print IP information
+    ip_info = ap.ifconfig()
+    print("\nAP 网络配置 / AP network configuration:")
+    print(f"IP 地址 / IP address: {ip_info[0]}")
+    print(f"子网掩码 / Subnet mask: {ip_info[1]}")
+    print(f"网关 / Gateway: {ip_info[2]}")
+    print(f"DNS 服务器 / DNS server: {ip_info[3]}")
+​
+    # 持续监控连接设备 / Continuously monitor connected devices
+    while True:
+        # 获取已连接的客户端信息 / Get information about connected clients
+        clients = ap.status('stations')
+        print(f"\n已连接设备数 / Number of connected devices: {len(clients)}")
+​
+        # 每秒更新一次 / Update every second
+        time.sleep(1)
+​
+# 调用函数创建热点 / Call function to create hotspot
+CREATE_AP(AP_SSID, AP_KEY)
+
+```
+
+### flow chart
+
+![image-20250218213833076](3.png)
+
+Possible BUGs:
+
+In the code, we use clients = ap.status('stations') and len(clients) to determine the number of connections. If the program ends abnormally, it may cause abnormal counting. In this case, you can press and hold the reset button of K230 or turn off the power for a while and then reconnect K230.
+
+## A brief introduction to WLAN related APIs
+
+**AP Mode** (Access Point):
+
+- **`network.WLAN(network.AP_IF)`**: Initialize a WLAN object and set it to AP mode.
+- **`ap.active(bool)`**: Activate or deactivate AP mode. `True`Activate when passed in, `False`deactivate when passed in. If called without parameters, returns the current activation state.
+- **`ap.config(ssid=None, key=None ...)`**: Configure AP parameters, such as SSID, password, channel, etc. If called without any parameters, it returns the current configuration.
+- **`ap.status()`**: Returns the current status of the AP.

@@ -1,0 +1,52 @@
+# 4. Create an Image
+
+# Creating an Image
+
+Creating an ImageDetailed Tutorialflow chart
+
+ 
+
+## Detailed Tutorial
+
+In this section, we will learn how to load images in lvgl.
+
+First, we upload an image to the K230. In the directory of this tutorial in the supporting materials, there is a logo-350-min.png image. We copy this image to the sdcard directory of the K230.
+
+In the current firmware, loading PNG images is the simplest. Images in other formats can be loaded according to the document description, but after testing, the loading process is very cumbersome and cannot be directly imported, so here we take PNG images as an example. At the same time, we will provide a small tool for converting images to PNG format in the supporting materials for everyone to use (the small tool is to simplify everyone's testing and does not guarantee compatibility. If you find that the small tool cannot achieve the expected effect during your use, such as the image format conversion fails, please search for more professional processing tools on your own)
+
+Above the def main() function, declare a function load_image() to load an image, and call it after initializing lvgl in the main function.
+
+```python
+def load_image():
+    try:
+        with open("/sdcard/images/wp.png",'rb') as f:
+            png_data = f.read()
+    except:
+        print("Could not find logo")
+​
+    img_logo = lv.img_dsc_t({
+      'data_size': len(png_data),
+      'data': png_data
+    })
+​
+    img1 = lv.img(lv.scr_act())
+    img1.set_src(img_logo)
+    img1.align(lv.ALIGN.CENTER, 0, 0)
+
+```
+
+The running effect is as shown in the figure
+
+![image-20250403204830852](1.png)
+
+ 
+
+Through the above steps, we can successfully display the picture in the lvgl program
+
+## flow chart
+
+Complete code: [Source code/12.Lvgl/04.lvgl_image.py]
+
+The flow chart is as follows
+
+![image-20250224172152254](flow.png)
