@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538216/图层-3 (10).png)
 
 #### Wiring Pins
 
@@ -403,4 +403,4 @@ OCRrec_Actions: When the recognized character content is "FORWARD", it moves for
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image, then start recognizing characters and print the recognized character content on the screen. If the content matches the preset content in the OCRrec_Actions function, the corresponding action will be taken.
 
-![ocr_rec](ocr_rec.png)
+![ocr_rec](https://www.yahboom.net/public/upload/upload-html/1749538216/ocr_rec.png)

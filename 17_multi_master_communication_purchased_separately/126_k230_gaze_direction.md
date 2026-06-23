@@ -36,7 +36,7 @@ Connection cable
 |  |  |
 |  |  |
 
-![image-20250430160757147](image-20250430160757147.png)
+![image-20250430160757147](https://www.yahboom.net/public/upload/upload-html/1747382587/image-20250430160757147.png)
 
 ### 3. Main code explanation
 
@@ -92,7 +92,7 @@ in
 
 1. After connecting the cables, the k230 visual module runs offline.  After K230 is connected to Canmv IDE, open the corresponding program, click [Save open script to CanMV board (as main.py)] on the toolbar, and then restart K230.
 
-![image-20250429194108060](image-20250429194108060.png)
+![image-20250429194108060](https://www.yahboom.net/public/upload/upload-html/1747382587/image-20250429194108060.png)
 
 1. Transfer the program file to the system, open the terminal and enter the corresponding directory, then run the following command to start the program.
 
@@ -120,4 +120,4 @@ y1: is the vertical coordinate of the gaze direction
 
 As shown in the figure below
 
-![image-20250430114651217](image-20250430114651217.png)
+![image-20250430114651217](https://www.yahboom.net/public/upload/upload-html/1747382587/image-20250430114651217.png)

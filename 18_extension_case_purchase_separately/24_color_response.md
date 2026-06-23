@@ -12,7 +12,7 @@ K230 vision module, Yabo STM32F103C8T6 core board, 14-bead RGB light strip.
 
 ### Hardware Wiring
 
-![image-20250603182409507](image-20250603182409507.png)
+![image-20250603182409507](https://www.yahboom.net/public/upload/upload-html/1749538375/image-20250603182409507.png)
 
 #### Wiring Pins
 
@@ -56,7 +56,7 @@ When K230 is initialized successfully, it will start to recognize the set color,
 
 Color_Reaction.py provides recognition of three preset colors: red, green, and blue. If the recognition effect is not good, you can watch the K230 color recognition tutorial to learn how to change the LAB threshold to a threshold that suits your environment.
 
-![image-20250603183230973](image-20250603183230973.png)
+![image-20250603183230973](https://www.yahboom.net/public/upload/upload-html/1749538375/image-20250603183230973.png)
 
 ## 4. Code analysis
 
@@ -250,4 +250,4 @@ Color_Rec: After receiving data from K230, check if the string content is red, g
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image and frame the recognized color. If it is one of the three colors: red, green, and blue, the RGB light bar will light up the corresponding color.
 
-![1748944387808_compressed](1748944387808_compressed.jpg)
+![1748944387808_compressed](https://www.yahboom.net/public/upload/upload-html/1749538375/1748944387808_compressed.jpg)

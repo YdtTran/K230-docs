@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538156/图层-3 (10).png)
 
 #### Wiring Pins
 
@@ -74,7 +74,7 @@ After K230 is initialized successfully, place the machine code in front of the c
 
 If the tracking effect is not satisfactory, you can modify the PID value of the app_motor.c file in the ProtocolHub project.
 
-![image-20250530182310179](image-20250530182310179.png)
+![image-20250530182310179](https://www.yahboom.net/public/upload/upload-html/1749538156/image-20250530182310179.png)
 
 ## 4. Code analysis
 
@@ -390,4 +390,4 @@ Visual_Line_Track: After recognizing the machine code, the robot waits for three
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image and frame the machine code. After three seconds, the current area size will be recorded. If the machine code is moved forward, backward, left, or right, the car will move with it.
 
-![aprilcode_track](aprilcode_track.png)
+![aprilcode_track](https://www.yahboom.net/public/upload/upload-html/1749538156/aprilcode_track.png)

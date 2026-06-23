@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538172/图层-3 (10).png)
 
 #### Wiring Pins
 
@@ -360,8 +360,8 @@ Autonomous_Avoid: When an obstacle is detected and approaches an area larger tha
 
  Turn on the power switch and wait for a few seconds. After the system initialization is completed, the car will move forward on its own. If an obstacle is identified and is relatively close, the car will stop on its own.
 
-![image-20250603193526470](image-20250603193526470.png)
+![image-20250603193526470](https://www.yahboom.net/public/upload/upload-html/1749538172/image-20250603193526470.png)
 
 Obstacle Ice Cream Bucket:
 
-![1748950946836](1748950946836.jpg)
+![1748950946836](https://www.yahboom.net/public/upload/upload-html/1749538172/1748950946836.jpg)

@@ -42,7 +42,7 @@ The red laser pen needs to be recognized by k230. Customers can choose the laser
 
 ## 3.Placement
 
-![Placement](Placement.jpg)
+![Placement](https://www.yahboom.net/public/upload/upload-html/1749293156/Placement.jpg)
 
 The placement is as shown in the figure. You can choose our aluminum base frame as the base plate to fix the k230 and the gimbal, or you can fix it yourself. The distance between the k230 and the gimbal is about 7cm, and the 2D gimbal system is 1m away from the black frame as required by the question.
 
@@ -52,7 +52,7 @@ First, follow the 2D PTZ installation tutorial to build the 2D PTZ.
 
 ##### Hardware Wiring：
 
-![wiring](wiring.png)
+![wiring](https://www.yahboom.net/public/upload/upload-html/1749293156/wiring.png)
 
 |  |  |
 | --- | --- |

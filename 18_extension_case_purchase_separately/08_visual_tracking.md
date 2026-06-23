@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538128/图层-3 (10).png)
 
 #### Wiring Pins
 
@@ -73,17 +73,17 @@ After K230 is initialized successfully, it will start to recognize the set color
 
 Visual_line_tracking.py provides recognition of four preset colors: red, green, blue, and black. If the recognition effect is not good, you can watch the K230 color recognition tutorial to learn how to change the LAB threshold to a threshold that suits your environment.
 
-![image-20250530174129227](image-20250530174129227.png)
+![image-20250530174129227](https://www.yahboom.net/public/upload/upload-html/1749538128/image-20250530174129227.png)
 
 Here you can change it to the color you want to patrol:
 
-![image-20250530174257343](image-20250530174257343.png)
+![image-20250530174257343](https://www.yahboom.net/public/upload/upload-html/1749538128/image-20250530174257343.png)
 
  
 
 If you are not satisfied with the line patrol effect, you can modify the PID value of the app_motor.c file in the ProtocolHub project.
 
-![image-20250530182310179](image-20250530182310179.png)
+![image-20250530182310179](https://www.yahboom.net/public/upload/upload-html/1749538128/image-20250530182310179.png)
 
  If you choose the dual-drive version of the Guosai chassis, you need to modify the motor PID and the PID in the app_motor.c file. Here, we take the dual-drive L520 motor as an example and adapt a set of available PID parameters. The motor PID is: P:1.9, I:0.2, D:0.8, and the line patrol PID is P:3.5, I:0, D:13.
 
@@ -381,4 +381,4 @@ Visual_Line_Track: After receiving data from K230, it will wait for three second
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image and frame the color you want to patrol. After waiting for three seconds, the car will start moving along the line.
 
-![Screenshot_2025-06-03-11-37-11-272_com.miui.mediaviewer](Screenshot_2025-06-03-11-37-11-272_com.miui.mediaviewer.jpg)
+![Screenshot_2025-06-03-11-37-11-272_com.miui.mediaviewer](https://www.yahboom.net/public/upload/upload-html/1749538128/Screenshot_2025-06-03-11-37-11-272_com.miui.mediaviewer.jpg)

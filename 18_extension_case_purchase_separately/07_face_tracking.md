@@ -23,7 +23,7 @@ Aluminum alloy plate x1
 
 ## 3. Placement
 
-![Placement](Placement.jpg)
+![Placement](https://www.yahboom.net/public/upload/upload-html/1749292689/Placement.jpg)
 
 The placement is as shown in the figure. You can choose our aluminum base frame as the base plate to fix the k230 and the gimbal, or you can choose a fixed base plate. The chassis can be glued to prevent the gimbal from moving too much and causing deviation. The k230 is fixed on the two-dimensional gimbal. When using the battery, if the gimbal rotates too much, you can moderately reduce the pid parameter.
 
@@ -33,7 +33,7 @@ First, build the 2D gimbal according to the 2D gimbal installation tutorial
 
 ##### Hardware wiring:
 
-![Wiring](Wiring.png)
+![Wiring](https://www.yahboom.net/public/upload/upload-html/1749292689/Wiring.png)
 
 |  |  |
 | --- | --- |

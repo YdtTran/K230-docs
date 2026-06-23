@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![image-20250603170101160](./image-20250603170101160.png)
+![image-20250603170101160](https://www.yahboom.net/public/upload/upload-html/1749538409/image-20250603170101160.png)
 
 #### Wiring Pins
 
@@ -74,7 +74,7 @@ When K230 is initialized successfully, it will start to recognize the license pl
 
 If you are not satisfied with the tracking effect, you can modify the PID value of the app_motor.c file in the ProtocolHub project.
 
-![image-20250530182310179](./image-20250530182310179.png)
+![image-20250530182310179](https://www.yahboom.net/public/upload/upload-html/1749538409/image-20250530182310179.png)
 
 ## 4. Code analysis
 
@@ -382,4 +382,4 @@ Licence_Track: Three seconds after the license plate is recognized, the area of 
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image and the license plate will be framed. After waiting for three seconds, the car will move with the license plate.
 
-![license](./license.png)
+![license](https://www.yahboom.net/public/upload/upload-html/1749538409/license.png)

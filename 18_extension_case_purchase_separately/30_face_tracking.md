@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![image-20250603170101160](./image-20250603170101160.png)
+![image-20250603170101160](https://www.yahboom.net/public/upload/upload-html/1749538415/image-20250603170101160.png)
 
 #### Wiring Pins
 
@@ -74,7 +74,7 @@ After K230 is initialized successfully, it will start to recognize faces. After 
 
 If you are not satisfied with the tracking effect, you can modify the PID value of the app_motor.c file in the ProtocolHub project.
 
-![image-20250530182310179](./image-20250530182310179.png)
+![image-20250530182310179](https://www.yahboom.net/public/upload/upload-html/1749538415/image-20250530182310179.png)
 
 ## 4. Code analysis
 
@@ -381,4 +381,4 @@ Human_Face_Track: Three seconds after recognizing a face, the current face recog
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image and frame the face. After waiting for three seconds, the car will move with the movement of the face.
 
-![humanface](./humanface.png)
+![humanface](https://www.yahboom.net/public/upload/upload-html/1749538415/humanface.png)

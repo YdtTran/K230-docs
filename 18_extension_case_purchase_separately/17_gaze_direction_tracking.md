@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538202/图层-3 (10).png)
 
 #### Wiring Pins
 

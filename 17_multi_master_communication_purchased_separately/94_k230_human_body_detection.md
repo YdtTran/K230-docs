@@ -36,7 +36,7 @@ connection cable
 |  |  |
 |  |  |
 
-![image-20250430171114604](image-20250430171114604.png)
+![image-20250430171114604](https://www.yahboom.net/public/upload/upload-html/1747379409/image-20250430171114604.png)
 
 ### 3. Main code explanation
 
@@ -101,7 +101,7 @@ in
 
 1. After connecting the cables, the k230 visual module runs offline.  After K230 is connected to Canmv IDE, open the corresponding program, click [Save open script to CanMV board (as main.py)] on the toolbar, and then restart K230.
 
-![image-20250429194108060](image-20250429194108060.png)
+![image-20250429194108060](https://www.yahboom.net/public/upload/upload-html/1747379409/image-20250429194108060.png)
 
 1. 
 
@@ -129,4 +129,4 @@ h: is the length of the recognized frame
 
 As shown in the figure below
 
-![image-20250430115216204](image-20250430115216204.png)
+![image-20250430115216204](https://www.yahboom.net/public/upload/upload-html/1747379409/image-20250430115216204.png)

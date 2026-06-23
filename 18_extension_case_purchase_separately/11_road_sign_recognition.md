@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538165/图层-3 (10).png)
 
 #### Wiring Pins
 
@@ -375,7 +375,7 @@ RoadSign_Rec: If a straight ahead sign is recognized, the vehicle will drive for
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image, and it will begin to recognize road signs and take corresponding actions.
 
-![guidedetect](guidedetect.png)
+![guidedetect](https://www.yahboom.net/public/upload/upload-html/1749538165/guidedetect.png)
 
  
 
@@ -383,16 +383,16 @@ RoadSign_Rec: If a straight ahead sign is recognized, the vehicle will drive for
 
 go_straight:
 
-![0](0.jpg)
+![0](https://www.yahboom.net/public/upload/upload-html/1749538165/0.jpg)
 
 turn_right:
 
-![1](1.jpg)
+![1](https://www.yahboom.net/public/upload/upload-html/1749538165/1.jpg)
 
 speed_limit:
 
-![4](4.jpg)
+![4](https://www.yahboom.net/public/upload/upload-html/1749538165/4.jpg)
 
 stop:
 
-![5](5.jpg)
+![5](https://www.yahboom.net/public/upload/upload-html/1749538165/5.jpg)

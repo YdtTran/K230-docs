@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538163/图层-3 (10).png)
 
 #### Wiring Pins
 
@@ -402,4 +402,4 @@ QRCode_Action: When the content of the QR code is recognized as "FORWARD", it mo
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image, then recognize the QR code and print the recognized QR code content on the screen. If the content matches the preset content in the QRCode_Action function, the corresponding action will be taken.
 
-![qrcode](qrcode.png)
+![qrcode](https://www.yahboom.net/public/upload/upload-html/1749538163/qrcode.png)

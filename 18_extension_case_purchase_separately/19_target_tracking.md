@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![图层-3 (10)](图层-3 (10).png)
+![图层-3 (10)](https://www.yahboom.net/public/upload/upload-html/1749538208/图层-3 (10).png)
 
 #### Wiring Pins
 
@@ -70,13 +70,13 @@ When K230 is initialized successfully, a green frame will appear in the center o
 
 Since this recognition function is easy to lose the target in fast-moving situations, the robot only uses rotation tracking in situ. It does not perform forward and backward tracking.
 
-![image-20250604161309882](image-20250604161309882.png)
+![image-20250604161309882](https://www.yahboom.net/public/upload/upload-html/1749538208/image-20250604161309882.png)
 
 ##### Notice:
 
 If you are not satisfied with the tracking effect, you can modify the PID value of the app_motor.c file in the ProtocolHub project.
 
-![image-20250530182310179](image-20250530182310179.png)
+![image-20250530182310179](https://www.yahboom.net/public/upload/upload-html/1749538208/image-20250530182310179.png)
 
 ## 4. Code analysis
 
@@ -366,4 +366,4 @@ Target_Track: Calculates and identifies the offset of the target on the x-axis, 
 
  Turn on the power switch, wait for the system to initialize, the screen will display the camera image, and a green frame will appear in the center of the screen. Aim the green frame at the object we want to identify and wait for a while. When the frame in the middle of the screen turns red, the robot will start to rotate and track in place.
 
-![image-20250604161258663](image-20250604161258663.png)
+![image-20250604161258663](https://www.yahboom.net/public/upload/upload-html/1749538208/image-20250604161258663.png)

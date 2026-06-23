@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![image-20250603170101160](image-20250603170101160.png)
+![image-20250603170101160](https://www.yahboom.net/public/upload/upload-html/1749538438/image-20250603170101160.png)
 
 #### Wiring Pins
 
@@ -73,7 +73,7 @@ After K230 is initialized successfully, it will start to recognize the human bod
 
 If you are not satisfied with the following effect, you can modify the PID value of the app_motor.c file in the ProtocolHub project.
 
-![image-20250530182310179](image-20250530182310179.png)
+![image-20250530182310179](https://www.yahboom.net/public/upload/upload-html/1749538438/image-20250530182310179.png)
 
 ## 4. Code analysis
 
@@ -384,4 +384,4 @@ HumanBody_Track: One second after a human body is recognized, the area of the hu
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image. After recognizing a human body, the human body will be framed. After one second, it will start to follow the framed human body. In this case, when following a human body, it is recommended to try multiple times to find a suitable distance to start following. Being too close or too far will result in poor results.
 
-![humanbody](humanbody.png)
+![humanbody](https://www.yahboom.net/public/upload/upload-html/1749538438/humanbody.png)

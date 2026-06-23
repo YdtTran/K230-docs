@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![image-20250603170101160](./image-20250603170101160.png)
+![image-20250603170101160](https://www.yahboom.net/public/upload/upload-html/1749538419/image-20250603170101160.png)
 
 #### Wiring Pins
 
@@ -373,4 +373,4 @@ GazeDire_Track: Calculates the deviation between the starting and ending positio
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image and recognize the direction of your gaze. When you face the robot and look to the right, the robot will rotate to your right. When you look to the left, the robot will rotate back to the left. However, the rotation angle will not be very large. This is to facilitate the K230 to recognize when the gaze direction changes and the robot can respond.
 
-![gazefollow](./gazefollow.png)
+![gazefollow](https://www.yahboom.net/public/upload/upload-html/1749538419/gazefollow.png)

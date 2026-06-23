@@ -354,4 +354,4 @@ Autonomous_Avoid: When an obstacle is detected and approaches an area larger tha
 
 Obstacle Ice Cream Bucket:
 
-![1748950946836](1748950946836.jpg)
+![1748950946836](https://www.yahboom.net/public/upload/upload-html/1749538400/1748950946836.jpg)

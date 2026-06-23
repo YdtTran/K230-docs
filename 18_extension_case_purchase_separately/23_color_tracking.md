@@ -18,7 +18,7 @@ M2 -> Lower left motor (left rear wheel of the car) M4 -> Lower right motor (rig
 
 ### Hardware Wiring
 
-![image-20250603170101160](image-20250603170101160.png)
+![image-20250603170101160](https://www.yahboom.net/public/upload/upload-html/1749538379/image-20250603170101160.png)
 
 #### Wiring Pins
 
@@ -74,15 +74,15 @@ After K230 is initialized successfully, it will start to recognize the set color
 
 color_track.py provides recognition of four preset colors: red, green, blue, and yellow. If the recognition effect is not good, you can watch the K230 color recognition tutorial to learn how to change the LAB threshold to a threshold that suits your environment.
 
-![image-20250603171741439](image-20250603171741439.png)
+![image-20250603171741439](https://www.yahboom.net/public/upload/upload-html/1749538379/image-20250603171741439.png)
 
 Here you can change it to the color you want to track:
 
-![image-20250603171841879](image-20250603171841879.png)
+![image-20250603171841879](https://www.yahboom.net/public/upload/upload-html/1749538379/image-20250603171841879.png)
 
 If you are not satisfied with the tracking effect, you can modify the PID value of the app_motor.c file in the ProtocolHub project.
 
-![image-20250530182310179](image-20250530182310179.png)
+![image-20250530182310179](https://www.yahboom.net/public/upload/upload-html/1749538379/image-20250530182310179.png)
 
 ## 4. Code analysis
 
@@ -391,4 +391,4 @@ Color_Trace: After receiving the data from K230, it will wait for three seconds,
 
  Turn on the power switch and wait for the system to initialize. The screen will display the camera image and frame the color you want to track. After waiting for three seconds, the robot will move along the recognized color frame to keep it in the center of the screen.
 
-![colortrack](colortrack.bmp)
+![colortrack](https://www.yahboom.net/public/upload/upload-html/1749538379/colortrack.bmp)
